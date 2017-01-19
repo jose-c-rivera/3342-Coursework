@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Task j001</title>
+		<script>
+			function date(){
+			
+			}
+		</script>
+	</head>
+	<body>
+	
+		<h1>JavaScript: Task j001</h1>
+		<hr />
+		<img src ="http://drainandductscoping.com/wp-content/uploads/2015/11/calendar-button-300x300.png" width ="100" height = "100"/>
+		<h3> Current date and time: </h3>
+		<br />
+		<script>
+		var currentdate = new Date(); 
+		document.write(currentdate);
+		</script>
+		<br />
+		<script>
+		//Creates the button
+		var button = document.createElement("button");
+		button.innerHTML = "Update Date";
+
+		//Appends to the page
+		var body = document.getElementsByTagName("body")[0];
+		body.appendChild(button);
+
+		//Handles when button is clicked
+		button.addEventListener ("click", function() {
+			var x = document.createElement("div");
+			x.textContent = new Date();
+			document.body.appendChild(x);
+		});
+		</script>
+		<br />
+	</body>
+</html>
