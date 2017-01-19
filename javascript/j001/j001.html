@@ -3,14 +3,32 @@
 	<head>
 		<title>Task j001</title>
 		<script>
-			function date(){
-			
-			}
 		</script>
 	</head>
-	<body>
+	<body onLoad = "startTimer()">
 	
 		<h1>JavaScript: Task j001</h1>
+		The elapsed time is now <span id="ELAPSED"></span>
+		<button id="reset" onclick="reset()">Reset</button>
+		<button id="pause" onclick="pause_Resume()">Pause</button>
+		<script>
+		
+		function reset() {
+           
+            }
+			
+		function pause_Resume() {
+                var change = document.getElementById("pause");
+                if (change.innerHTML == "Pause")
+                {
+                    change.innerHTML = "Resume";
+                }
+                else {
+                    change.innerHTML = "Pause";
+                }
+            }
+		
+		</script>
 		<hr />
 		<img src ="http://drainandductscoping.com/wp-content/uploads/2015/11/calendar-button-300x300.png" width ="100" height = "100"/>
 		<h3> Current date and time: </h3>
@@ -35,7 +53,33 @@
 			x.textContent = new Date();
 			document.body.appendChild(x);
 		});
+		
+		function startTimer( )
+		{
+			seconds = -1;
+			ticker = setInterval("tick( )", 1000);
+			tick( );
+		}
+		function stopTimer(){
+			
+		}
+
+		function tick( )
+		{
+			++seconds;
+			var secs = seconds;
+			var hrs = Math.floor( secs / 3600 );
+			secs %= 3600;
+			var mns = Math.floor( secs / 60 );
+			secs %= 60;
+			var pretty = ( hrs < 10 ? "0" : "" ) + hrs
+				+ ":" + ( mns < 10 ? "0" : "" ) + mns
+				+ ":" + ( secs < 10 ? "0" : "" ) + secs;
+			document.getElementById("ELAPSED").innerHTML = pretty;
+		}
+	
 		</script>
 		<br />
+		
 	</body>
 </html>
