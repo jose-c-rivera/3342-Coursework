@@ -1,3 +1,34 @@
+commit 1a10f395abd874342fcb24fc5dcef265c51f2ad3
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 14:59:50 2017 -0500
+
+    time j100 30
+
+commit bc1710810979d36747709a42fe224ec3950276e3
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 14:32:55 2017 -0500
+
+    time j001 58
+
+commit c4335ae3ad83cdcdaa5ecf6110d45a86237a098b
+Merge: 754e1cc 391468c
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 13:05:06 2017 -0500
+
+    Merge branch 'master' of ssh://repo.gaul.csd.uwo.ca:7999/cs3342_w2017/jrivera4
+
+commit 754e1ccad4d790d715c7dcfa4aab57e23cbb0b9f
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 13:03:35 2017 -0500
+
+    time j001 30
+
+commit 391468ce6ad925ec329851aef3538feb5f432400
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 22:59:10 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit e7fd72be19dfc1410fbfe5915a601326dc8e8c23
 Author: Bob Webber <webber@csd.uwo.ca>
 Date:   Wed Jan 18 18:03:04 2017 -0500

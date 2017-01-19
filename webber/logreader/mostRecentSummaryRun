@@ -7,8 +7,13 @@ j100
 -------- Already processed practice times 
 ----- Fetching current practice times
 -------- Current practice times 
+1a10f395abd874342fcb24fc5dcef265c51f2ad3 j100 30
+bc1710810979d36747709a42fe224ec3950276e3 j001 58
+754e1ccad4d790d715c7dcfa4aab57e23cbb0b9f j001 30
 ----- Summary Report
 ----- Time Log Report
 ------- By Task
-total time on all tasks according to this log was 0
-the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
+total time spent on task j100 was 30
+total time spent on task j001 was 88
+total time on all tasks according to this log was 118
+the percentage of weekly required practice time spent so far is 65.55555555555556% (target is 100.0%)
