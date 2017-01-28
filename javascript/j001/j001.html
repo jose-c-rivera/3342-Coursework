@@ -8,7 +8,9 @@
 	<body onLoad = "startTimer()">
 	
 		<h1>JavaScript: Task j001</h1>
+		<div>
 		The elapsed time is now <span id="ELAPSED"></span>
+		</div>		
 		<button id="reset" onclick="reset()">Reset</button>
 		<button id="pause" onclick="pause_Resume()">Pause</button>
 		<script>
@@ -54,7 +56,7 @@
 			document.body.appendChild(x);
 		});
 		
-		function startTimer( )
+		function startTimer()
 		{
 			seconds = -1;
 			ticker = setInterval("tick( )", 1000);
