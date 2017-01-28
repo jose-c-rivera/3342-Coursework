@@ -1,3 +1,21 @@
+commit 59ccab38bc88896a38e04c274075f33311c85abf
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Jan 28 02:53:43 2017 -0500
+
+    Update
+
+commit 45ca1f75fc250e7a74e0e69b2e73ff2a490500d9
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Jan 28 02:52:27 2017 -0500
+
+    Added textt file to test linux OS
+
+commit 868dba8d7e49da44efa5ec0e6ca7c0d00aeb429a
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Jan 26 18:12:28 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit 7b92278faceb8dbf9a899f1ba34bb857c3c478f3
 Author: Bob Webber <webber@csd.uwo.ca>
 Date:   Wed Jan 25 17:39:17 2017 -0500
