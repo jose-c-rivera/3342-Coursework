@@ -1,0 +1,255 @@
+commit b9a40d15c0b6bb0d5efd6d1ca59d6bc7e75ee89b
+Merge: facc967 a9e4c23
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Jan 28 17:53:46 2017 -0500
+
+    Merge branch 'master' of ssh://repo.gaul.csd.uwo.ca:7999/cs3342_w2017/jrivera4
+    
+    update
+
+commit facc9679123f50fe9a4d12c7ddf03f3f1ff99923
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Jan 28 17:53:01 2017 -0500
+
+    time j200 57
+
+commit a9e4c239b23d70db11f206cc41acbbc2e59eeb7c
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 28 16:26:21 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 59ccab38bc88896a38e04c274075f33311c85abf
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Jan 28 02:53:43 2017 -0500
+
+    Update
+
+commit 45ca1f75fc250e7a74e0e69b2e73ff2a490500d9
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Jan 28 02:52:27 2017 -0500
+
+    Added textt file to test linux OS
+
+commit 868dba8d7e49da44efa5ec0e6ca7c0d00aeb429a
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Jan 26 18:12:28 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 7b92278faceb8dbf9a899f1ba34bb857c3c478f3
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 25 17:39:17 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 96bf0c01d097888f0ddfe88069ab0460b97e01bf
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 24 15:56:05 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 694428870316cfb4e8b2424e032f6530bd4c80d8
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 23 23:14:46 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 5aac72062540824337c227ab19dfc47a1355434e
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 23 17:26:52 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit cb3794d5ece1d30c01056eb830a80de658733313
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 23 14:11:54 2017 -0500
+
+    marking for past week completed, see webber/evaluations/markssofar for result
+
+commit e7be18e68c1f7cfa155aae10cc001ec14742d44e
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 22 21:20:04 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit b8be76e214f10fc6d39f99bd2ef752d1cdfb34cd
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 22 16:54:04 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 4d255fcfc22908b80d113448e06558f0df91af46
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sun Jan 22 15:18:38 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 6c6e89b73bf27c0320f1e1ba60075ba4c0198cd8
+Author: Jose <jrivera4@uwo.ca>
+Date:   Sun Jan 22 02:18:29 2017 -0500
+
+    time j002 32
+
+commit 4983e55df3f9a34971e56826656f7ae849edce2c
+Author: Jose <jrivera4@uwo.ca>
+Date:   Sun Jan 22 01:18:50 2017 -0500
+
+    time j002 48
+
+commit 9b5913a8c74c55349bedb26a35c0c3f92c817f8e
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 19:38:27 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 852bc373a86dff4c78371836c7e9403131066277
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 17:58:43 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit d3da8aa86b1fdb863e3b43da089ab0418c17e5cd
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 16:00:56 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 0c3347269c0e93d27b945f4c22165e7e7c4e2e79
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 15:54:35 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 4af067d3e868cf9686101b15b677a280cc308c52
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 15:19:36 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 4dad9dedd3d41a7210a077c07704a8fc9d08a932
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 21 15:01:26 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 02f6dcd8a32d273430a502774e3a39604bbb5ce4
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Fri Jan 20 19:07:22 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit ed41309ec454fd07e256010958cbf0433508be68
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Fri Jan 20 14:29:35 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit bbf8261e8b2c646cbd03463eb1cdbd7f0e6e90cf
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Jan 19 16:12:53 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 2df8cd9d972a2daa3d5109a79db7703c7000a85f
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Jan 19 15:10:55 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 1a10f395abd874342fcb24fc5dcef265c51f2ad3
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 14:59:50 2017 -0500
+
+    time j100 30
+
+commit bc1710810979d36747709a42fe224ec3950276e3
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 14:32:55 2017 -0500
+
+    time j001 58
+
+commit c4335ae3ad83cdcdaa5ecf6110d45a86237a098b
+Merge: 754e1cc 391468c
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 13:05:06 2017 -0500
+
+    Merge branch 'master' of ssh://repo.gaul.csd.uwo.ca:7999/cs3342_w2017/jrivera4
+
+commit 754e1ccad4d790d715c7dcfa4aab57e23cbb0b9f
+Author: Jose <jrivera4@uwo.ca>
+Date:   Thu Jan 19 13:03:35 2017 -0500
+
+    time j001 30
+
+commit 391468ce6ad925ec329851aef3538feb5f432400
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 22:59:10 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit e7fd72be19dfc1410fbfe5915a601326dc8e8c23
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 18:03:04 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 12ec856471d505c9980d8ee915e00e9c926ba3fe
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 18 12:54:55 2017 -0500
+
+    updating practice framework and running summary.rb
+
+commit 422ee1f1ad0d6b6d70190d40517f27e669eb380a
+Author: Jose <jrivera4@uwo.ca>
+Date:   Wed Jan 18 02:27:42 2017 -0500
+
+    Primary Test to push
+
+commit 7a259297e47e561ed0538b3c2d13959d3a072860
+Author: Jose <jrivera4@uwo.ca>
+Date:   Wed Jan 18 02:21:49 2017 -0500
+
+    first try
+
+commit 5baabcfd84350d3cb015bb107f4674ccab834557
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 17 21:11:38 2017 -0500
+
+    updating practice framework
+
+commit 4112d2688009c921e8b5d172f7dada040433bfe5
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Jan 16 17:54:16 2017 -0500
+
+    updating practice framework
+
+commit 5a015ce541787cc0cf4cbbee29f91dfa9957e717
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 14 19:49:50 2017 -0500
+
+    updating practice framework
+
+commit 63b8064e553a32e6abfa125f6f23e5577598f8e5
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Sat Jan 14 19:13:39 2017 -0500
+
+    updating practice framework
+
+commit 7748be97c151b4f3f514ea5f2a8cf410ba5199bf
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Fri Jan 13 16:24:36 2017 -0500
+
+    updating practice framework
+
+commit 641d4e3ebf73b53fa447a81baafd2b2295fdd062
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Wed Jan 11 22:50:16 2017 -0500
+
+    updating practice framework
+
+commit 1e2ac454db29f1e1615d9f46491aae9c7206516d
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Tue Jan 10 18:37:00 2017 -0500
+
+    updating practice framework

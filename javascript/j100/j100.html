@@ -6,8 +6,11 @@
 	<body>
 	
 		<h1>JavaScript: Task j100</h1>
+		<center><img src="https://i.stack.imgur.com/LT3WE.png"></center>
+		<center><h1>YouTube Player</h1></center>
 		<hr />
-		<div id="video-placeholder"></div>
+		<center><div id="video-placeholder"></div></center>
+		
 
 		<script src="https://www.youtube.com/iframe_api"></script>
 		<script>
@@ -47,6 +50,23 @@
 				}, 1000)
 
 			}
+
+		
 			</script>
+	<div>
+
+            <h2>Your Video Queue</h2>
+            <img class="thumbnail" src="https://img.youtube.com/vi/hgx7L9Nyfjw/mqdefault.jpg" data-video-id="h14wr4pXZFk">
+            <img class="thumbnail" src="https://img.youtube.com/vi/pbMO7uwu-ok/mqdefault.jpg" data-video-id="KkFnm-7jzOA">
+            <img class="thumbnail" src="https://img.youtube.com/vi/OElxUkigPUE/mqdefault.jpg" data-video-id="Ph77yOQFihc">
+	<script>
+           	('.thumbnail').on('click', function () {
+
+    		var url = $(this).attr('data-video-id');
+
+    		player.cueVideoById(url);
+	</script>
+
+</div>
 	</body>
 </html>
