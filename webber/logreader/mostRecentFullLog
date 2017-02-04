@@ -1,3 +1,21 @@
+commit de9723b8b370181aedb7454ac99d529289ad4b23
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Feb 4 15:25:30 2017 -0500
+
+    time h001 41
+
+commit 5b0df4b417b53fccc8cff40f8b3ee69ca1ac8e50
+Author: Jose Rivera <jrivera4@uwo.ca>
+Date:   Sat Feb 4 14:02:31 2017 -0500
+
+    time h001 32
+
+commit e566b309c69512fbd00fe0fb6affeae6f892b157
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Thu Feb 2 18:58:59 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit f38678b7baa17b506d624e7e046d197cdc1088a2
 Author: Bob Webber <webber@csd.uwo.ca>
 Date:   Wed Feb 1 14:14:20 2017 -0500
