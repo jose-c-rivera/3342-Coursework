@@ -5,9 +5,8 @@
 import System.IO
 import System.Process
 
-
 main = do
 
-       --Simple OPEN/PRINT of got log output
-       test <- readProcess "git" ["log"] ""
-       putStrLn test
+       --Redirect command to program without showing output to user
+       logFile <- readProcess "git" ["log"] ""
+       putStrLn logFile
