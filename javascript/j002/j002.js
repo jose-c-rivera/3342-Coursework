@@ -1,12 +1,13 @@
+var question = 0;
 
 document.write(examdatabase.description);
 
-function question(){
-	document.getElementById('question_space').innerHTML = "Question: " + examdatabase.questions[0].question;
+function question(question){
+	document.getElementById('question_space').innerHTML = "Question: " + examdatabase.questions[i].question;
 }
 
-function answer(){
-	document.getElementById('answer_space').innerHTML = "Answer: " + examdatabase.questions[0].answer;
+function answer(question){
+	document.getElementById('answer_space').innerHTML = "Answer: " + examdatabase.questions[i].answer;
 }
 
 function correct(){
@@ -17,4 +18,8 @@ function correct(){
 function incorrect(){
 	var textBox = document.getElementById('incorrect_box');
 	textBox.value++;
+}
+
+function newQ(){
+	question ++;
 }
