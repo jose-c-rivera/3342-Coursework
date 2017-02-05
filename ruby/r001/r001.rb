@@ -18,7 +18,7 @@ inputs = Array.new(6)
 input = File.open("logout.txt").each do |line|
 		
 		
-		if line[/\Acommit/] || line[/\AMerge/] || line[/\AAuthor/] || line[/\ADate/]
+		if line[/\AAuthor: Bob/]
 			line.chomp!
 		else
 			outputfile.puts line
@@ -30,4 +30,3 @@ input.close
 
 #TO DO: Devlop Code to group code and delete based on author
 #TO DO: Develop code to ouput straight to HTML file
-#Update
