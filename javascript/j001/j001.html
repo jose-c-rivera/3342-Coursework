@@ -11,13 +11,10 @@
 		<div>
 		The elapsed time is now <span id="ELAPSED"></span>
 		</div>		
-		<button id="reset" onclick="reset()">Reset</button>
+		<button id="reset" onclick="resetTimer()">Reset</button>
 		<button id="pause" onclick="pause_Resume()">Pause</button>
 		<script>
 		
-		function reset() {
-           
-            }
 			
 		function pause_Resume() {
                 var change = document.getElementById("pause");
@@ -55,6 +52,13 @@
 			x.textContent = new Date();
 			document.body.appendChild(x);
 		});
+	
+		function resetTimer()
+		{
+			seconds = -1;
+			ticker = setInterval("tick( )", 1000);
+			tick( );
+		}
 		
 		function startTimer()
 		{
@@ -63,6 +67,7 @@
 			tick( );
 		}
 		function stopTimer(){
+			
 			
 		}
 
