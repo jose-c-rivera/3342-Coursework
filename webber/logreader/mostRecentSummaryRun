@@ -1,11 +1,14 @@
 ----- Beginning to process log file
 ----- First read known task list
 h001
+h010
 j001
 j002
+j010
 j100
 j200
 r001
+r010
 ----- Fetching list of already processed practice times
 WARNING: skipping this log entry because unknown task r00134
 6818e99a47f7ed4baa5ca4d7a0ec9705f848c936 time r00134
