@@ -9,4 +9,4 @@ main = do
 
        --Redirect command to program without showing output to user
        logFile <- readProcess "git" ["log"] ""
-       putStrLn logFile
+       writeFile "logout.txt"(logFile)
