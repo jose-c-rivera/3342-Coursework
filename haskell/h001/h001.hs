@@ -10,3 +10,6 @@ main = do
        --Redirect command to program without showing output to user
        logFile <- readProcess "git" ["log"] ""
        writeFile "logout.txt"(logFile)
+
+	--ALlow for looking at report of just one task instead of whole report
+
