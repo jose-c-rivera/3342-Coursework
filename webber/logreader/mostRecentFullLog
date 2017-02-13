@@ -1,3 +1,9 @@
+commit f9f1cfcc1d8024d8cac3d29169d5154b243e8080
+Author: Bob Webber <webber@csd.uwo.ca>
+Date:   Mon Feb 13 17:14:43 2017 -0500
+
+    updating practice framework and running summary.rb
+
 commit 0ee740361643d54a52a43afa350ca185cc528bae
 Merge: 9dfa439 9861897
 Author: Jose Rivera <jrivera4@uwo.ca>

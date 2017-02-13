@@ -58,14 +58,23 @@ facc9679123f50fe9a4d12c7ddf03f3f1ff99923 j200 57
 bc1710810979d36747709a42fe224ec3950276e3 j001 58
 754e1ccad4d790d715c7dcfa4aab57e23cbb0b9f j001 30
 ----- Summary Report
+@+@ javascript time for week found before rules applied 0.0
+@+@ ruby time for week found before rules applied 0.0
+@+@ haskell time for week found before rules applied 0.0
 ----- Time Log Report
 ------- By Task
 total time on all tasks according to this log was 0.0
 On unknown_date marking for previous week
+@+@ time from prior weeks on javascript 334.98799999999994
+@+@ time from prior weeks on ruby 207.385
+@+@ time from prior weeks on haskell 177.627
 javascript practice time for previous week 0.0
 ruby practice time for previous week 0.0
 haskell practice time for previous week 0.0
-@@ hours of javascript to date = 334.988
-@@ hours of ruby to date = 207.385
-@@ hours of haskell to date = 177.627
+discretionary practice time for previous week 0.0
+note: in each of following categories, can not exceed 450.0 minutes
+@@ minutes of javascript to date = 334.988
+@@ minutes of ruby to date = 207.385
+@@ minutes of haskell to date = 177.627
+@@ minutes of discretionary practice to date = 0.0
 the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
