@@ -32,6 +32,8 @@ bc1710810979d36747709a42fe224ec3950276e3 j001 58
 WARNING: skipping this log entry because unknown task r00134
 6818e99a47f7ed4baa5ca4d7a0ec9705f848c936 time r00134
 -------- Current practice times 
+3c4e7e19d99d0503ffc325b2aaa732bb4b8f5e4a h001 49
+1c26565b0120b87350c2baf182f49d2d8d16f424 h001 21
 33364cd599da0a23fd9db6d10c547b460d508875 h010 37
 ddf52d0362074e270dd8454322bdd7e91a186442 r010 66
 41717e693164556c01f37d5ae2d0f1f46390241d j002 7
@@ -54,14 +56,15 @@ WARNING: minutes reduced to 60.0 from 66
 ddf52d0362074e270dd8454322bdd7e91a186442 r010 66
 ----- Time Log Report
 ------- By Task
+total time spent on task h001 was 70.0
 total time spent on task h010 was 37.0
 total time spent on task r010 was 60.0
-total time on all tasks according to this log was 97.0
+total time on all tasks according to this log was 167.0
 On unknown_date marking for previous week
 javascript practice time for previous week 0.0
 ruby practice time for previous week 60.0
-haskell practice time for previous week 37.0
+haskell practice time for previous week 107.0
 @@ hours of javascript to date = 334.988
 @@ hours of ruby to date = 193.209
-@@ hours of haskell to date = 108.803
-the percentage of weekly required practice time spent so far is 53.889% (target is 100.0%)
+@@ hours of haskell to date = 178.803
+the percentage of weekly required practice time spent so far is 92.778% (target is 100.0%)

@@ -32,6 +32,8 @@ bc1710810979d36747709a42fe224ec3950276e3 j001 58
 WARNING: skipping this log entry because unknown task r00134
 6818e99a47f7ed4baa5ca4d7a0ec9705f848c936 time r00134
 -------- Current practice times 
+3c4e7e19d99d0503ffc325b2aaa732bb4b8f5e4a h001 49
+1c26565b0120b87350c2baf182f49d2d8d16f424 h001 21
 33364cd599da0a23fd9db6d10c547b460d508875 h010 37
 ddf52d0362074e270dd8454322bdd7e91a186442 r010 66
 41717e693164556c01f37d5ae2d0f1f46390241d j002 7
@@ -52,19 +54,26 @@ bc1710810979d36747709a42fe224ec3950276e3 j001 58
 ----- Summary Report
 WARNING: minutes reduced to 60.0 from 66
 ddf52d0362074e270dd8454322bdd7e91a186442 r010 66
+@+@ javascript time for week found before rules applied 0.0
+@+@ ruby time for week found before rules applied 60.0
+@+@ haskell time for week found before rules applied 107.0
 ----- Time Log Report
 ------- By Task
+total time spent on task h001 was 70.0
 total time spent on task h010 was 37.0
 total time spent on task r010 was 60.0
-total time on all tasks according to this log was 97.0
+total time on all tasks according to this log was 167.0
 On unknown_date marking for previous week
+@+@ time from prior weeks on javascript 334.98799999999994
+@+@ time from prior weeks on ruby 133.209
+@+@ time from prior weeks on haskell 71.803
 javascript practice time for previous week 0.0
 ruby practice time for previous week 60.0
-haskell practice time for previous week 37.0
+haskell practice time for previous week 107.0
 discretionary practice time for previous week 0.0
-note: in each of following categories, can not exceed 450 minutes
+note: in each of following categories, can not exceed 450.0 minutes
 @@ minutes of javascript to date = 334.988
 @@ minutes of ruby to date = 193.209
-@@ minutes of haskell to date = 108.803
-@@ minutes of discretionary practice to date = 108.803
-the percentage of weekly required practice time spent so far is 53.889% (target is 100.0%)
+@@ minutes of haskell to date = 178.803
+@@ minutes of discretionary practice to date = 0.0
+the percentage of weekly required practice time spent so far is 92.778% (target is 100.0%)
