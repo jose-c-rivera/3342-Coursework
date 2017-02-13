@@ -3,6 +3,7 @@
 #CS 3342
 
 
+require 'open3'
 
 puts 'Now processing....'
 puts 'You can find the ouput file in the relative directory.'
@@ -14,11 +15,10 @@ fname = "r001out.txt"
 outputfile = File.open(fname, "w")
 
 inputs = Array.new(6)
-		
-input = File.open("logout.txt").each do |line|
-		
-		
-		if line[/\AAuthor: Bob/]
+
+input = Open3.capture3("git log").each do |line|
+				
+		if line[/\Bob/]
 			line.chomp!
 		else
 			outputfile.puts line
