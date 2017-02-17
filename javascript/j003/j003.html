@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Task j003</title>
+	</head>
+	<body>
+		<h1>JavaScript: Task j003</h1>
+		<hr />
+		<h4> Correct Answers: </h4>
+		<input type="text" name="correct_box" id="correct_box" readOnly="true" value="0"/>
+		<h4> Incorrect Answers: </h4>
+		<input type="text" name="incorrect_box" id="incorrect_box" readOnly="true" value="0"/>
+		<div id="placeholder"></div>
+		<script src ="examdatabase.js"></script>
+		<script src ="j003.js"></script>
+		<br/>
+		<button id="Question" onclick="question()">Question</button>
+		<button id="Answer" onclick="answer()">Answer</button>
+		<div id = 'question_space'></div>
+		<div id = 'answer_space'></div>
+		<h3>Was your answer correct?</h3>
+		<p>Note: The next question will not be displayed until a selection has been made.</p>
+		<button id="Yes" onclick="correct()">Yes</button>
+		<button id="No" onclick="incorrect()">No</button>
+		<button id="New Question" onclick="newQ()">New Question</button>
+	</body>
+</html>
