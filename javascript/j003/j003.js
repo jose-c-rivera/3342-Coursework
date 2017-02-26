@@ -1,13 +1,13 @@
-var question = 0;
+var qnum = 0;
 
 document.write(examdatabase.description);
 
-function question(question){
-	document.getElementById('question_space').innerHTML = "Question: " + examdatabase.questions[i].question;
+function question(){
+	document.getElementById('question_space').innerHTML = "Question #" + qnum + ":"  + examdatabase.questions[qnum].question;
 }
 
-function answer(question){
-	document.getElementById('answer_space').innerHTML = "Answer: " + examdatabase.questions[i].answer;
+function answer(){
+	document.getElementById('answer_space').innerHTML = "Answer #" + qnum + ":" + examdatabase.questions[qnum].answer;
 }
 
 function correct(){
@@ -27,5 +27,9 @@ function undo(){
 }
 
 function newQ(){
-	question ++;
+	if(qnum<34)
+	   qnum = qnum + 1;
+	
+	else
+	   qnum=0;
 }
