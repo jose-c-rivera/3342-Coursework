@@ -1,9 +1,11 @@
 #Ruby Task: r010
 #Author: Jose Rivera
-#CS 3342
+#Purpose: Build a sacanner in Ruby to read from an input file
+#Course: CS 3342
 
 
 fname = "output.txt"
+
 
 outputfile = File.open(fname, "w")
 
@@ -26,3 +28,4 @@ input.close
 #Notes to consider:
 #Right now the program works if the numbers are on seperate lines
 #Also the program must be able to distinguish integers and floats
+#lexical syntax
