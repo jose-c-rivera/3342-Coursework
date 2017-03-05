@@ -5,6 +5,7 @@
 
 require 'open3'
 
+
 puts 'Now processing....'
 puts 'You can find the ouput file in the relative directory.'
 
