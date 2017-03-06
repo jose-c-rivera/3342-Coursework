@@ -44,6 +44,11 @@ bc1710810979d36747709a42fe224ec3950276e3 j001 58
 WARNING: skipping this log entry because unknown task r00134
 6818e99a47f7ed4baa5ca4d7a0ec9705f848c936 time r00134
 -------- Current practice times 
+0bc3e3bd10176306dc41f9fb531e5cb1202483a2 h001 19
+37e454a53cf94db71ac69a801259d7060dbe3b3e h001 43
+3b7f7c13e4ac3fa20361af2bdd16718093f7bea2 r010 30
+4fcca05430a6fa9bfa72574a23bdfbf57cccd3bd r001 33
+5d94620e944f01ef745f7c661ad5e6bf01afd94d j200 60
 28e69337bcf715380813e713accda02a4914f6e6 j003 26
 95763ddee284c737c4e7fb4e3b5f5af37799e772 j003 28
 c8dc3abbcaf648cfc8e406573f685de38eaf4eb2 j003 21
@@ -68,24 +73,29 @@ facc9679123f50fe9a4d12c7ddf03f3f1ff99923 j200 57
 bc1710810979d36747709a42fe224ec3950276e3 j001 58
 754e1ccad4d790d715c7dcfa4aab57e23cbb0b9f j001 30
 ----- Summary Report
-@+@ javascript time for week found before rules applied 0.0
-@+@ ruby time for week found before rules applied 0.0
-@+@ haskell time for week found before rules applied 0.0
+@+@ javascript time for week found before rules applied 60.0
+@+@ ruby time for week found before rules applied 63.0
+@+@ haskell time for week found before rules applied 62.0
 ----- Time Log Report
 ------- By Task
-total time on all tasks according to this log was 0.0
+total time spent on task h001 was 62.0
+total time spent on task r010 was 30.0
+total time spent on task r001 was 33.0
+total time spent on task j200 was 60.0
+total time on all tasks according to this log was 185.0
+Note: time reported in excess of 180 minutes does not count toward practice
 On unknown_date marking for previous week
 @+@ time from prior weeks on javascript 409.98799999999994
 @+@ time from prior weeks on ruby 207.385
 @+@ time from prior weeks on haskell 177.627
 @+@ time from prior weeks on discretionary 0.0
-javascript practice time for previous week 0.0
-ruby practice time for previous week 0.0
-haskell practice time for previous week 0.0
-discretionary practice time for previous week 0.0
+javascript practice time for previous week 40.012
+ruby practice time for previous week 61.297
+haskell practice time for previous week 60.324
+discretionary practice time for previous week 18.366
 note: in each of following categories, can not exceed 450.0 minutes
-@@ minutes of javascript to date = 409.988
-@@ minutes of ruby to date = 207.385
-@@ minutes of haskell to date = 177.627
-@@ minutes of discretionary practice to date = 0.0
-the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
+@@ minutes of javascript to date = 450.0
+@@ minutes of ruby to date = 268.682
+@@ minutes of haskell to date = 237.951
+@@ minutes of discretionary practice to date = 18.366
+the percentage of weekly required practice time spent so far is 100.0% (target is 100.0%)
