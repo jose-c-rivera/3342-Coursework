@@ -19,7 +19,7 @@ inputs = Array.new(6)
 
 input = Open3.capture3("git log").each do |line|
 				
-		if line[/\Bob/]
+		if line.include? ("Bob") or line.include? ("practice framework")
 			line.chomp!
 		else
 			outputfile.puts line
