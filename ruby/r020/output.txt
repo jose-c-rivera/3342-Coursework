@@ -1,0 +1,30 @@
+program 
+ [ 
+ fundecls 
+ [ 
+ ]
+i  1
+program 
+ [ 
+ fundecls 
+ [ 
+ ]
+i  22
+program 
+ [ 
+ fundecls 
+ [ 
+ ]
+i  90
+program 
+ [ 
+ fundecls 
+ [ 
+ ]
+i  33
+program 
+ [ 
+ fundecls 
+ [ 
+ ]
+i  1
