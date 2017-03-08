@@ -3,28 +3,32 @@ program
  fundecls 
  [ 
  ]
-i  1
-program 
+s  ;
+expr 
  [ 
- fundecls 
+ term 
  [ 
+ factor 
+ [ 
+ integer_constant 
+ [ 
+i  23
  ]
-i  22
-program 
- [ 
- fundecls 
- [ 
  ]
-i  90
-program 
- [ 
- fundecls 
- [ 
  ]
-i  33
-program 
- [ 
- fundecls 
- [ 
  ]
-i  1
+ ]
+expr 
+ [ 
+ term 
+ [ 
+ factor 
+ [ 
+ integer_constant 
+ [ 
+f  45.6
+ ]
+ ]
+ ]
+ ]
+ ]

@@ -12,14 +12,22 @@ inputs = Array.new(6)
 		
 input = File.open("r010output.txt").each do |line|
 
-		if line[/\d/]
+		if line.include? ";"
                         string = line.strip
                         num = string.to_i
 			outputfile.puts "program \n [ \n fundecls \n [ \n ]"
 			outputfile.puts line
-		else
-			outputfile.puts line
 		end
+
+		if line.include? ("i") or line.include? ("f")
+			string = line.strip
+                        num = string.to_i
+			outputfile.puts "expr \n [ \n term \n [ \n factor \n [ \n integer_constant \n [ "
+			outputfile.puts line
+			outputfile.puts " ]\n ]\n ]\n ]\n ]"
+		end
+
+
 	
 end
 puts "The file can be found in the local directory."
