@@ -4,6 +4,32 @@
 
 
 require 'open3'
+require 'rubygems'
+require 'pp'
+logs = STDIN.read
+logs = logs.split("commit ")
+logs.shift
+
+logs = logs.map do |log|
+  l = log.split("\n")
+  commit = l.shift
+  author = l.shift.to_s.split("Author: ")[1]
+  x = author.to_s.split(" ")
+  email = x.pop
+  name = x.join(' ')
+
+  date = l.shift.to_s.split("Date : "[1].to_s.strip
+  comments = l.join("\n")
+  {
+    :commit => commit,
+    :author => author,
+    :name => name,
+    :email => email,
+    :date => date,
+    :comments => comments
+  }
+end
+pp logs
 
 
 puts 'Now processing....'
