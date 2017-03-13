@@ -1,3 +1,9 @@
+59569ff7a2f140002c3e7d963454324a7a307832 time h010 23 Added conditions for parser to group components of each git log entry together Program does not compile*
+7a007c47f09d41d1e6fce943fb37393cc158aeeb time h020 24 Created frame of parser, needs work*
+b084b9a47ce343643c2d8cda963d95922a283215 time r001 53 Parser fully functional Now groups components by reading first characters per string
+debb81aa97006593255dc78e3fd4cef2e1910460 time r001 14 Grouped lines together to check for instance of "Bob"
+b5bdfced91b0a56c16e7359266b7574ff94346b4 time r020 21 Added recognition of semi-colon, float and other characters Correct output
+ea0d4972f0261e3ed593a21c89fd2c1961d5cf97 time r020 46 Basic skeleton Needs to ignore first character else output is always 0
 0bc3e3bd10176306dc41f9fb531e5cb1202483a2 time h001 19 Date and author parsed successfully Message still needs implementation
 37e454a53cf94db71ac69a801259d7060dbe3b3e time h001 43 String manipulation needs adjusting Author does not output correctly
 3b7f7c13e4ac3fa20361af2bdd16718093f7bea2 time r010 30 Still need to identify floats, but integers function
