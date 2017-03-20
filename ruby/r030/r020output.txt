@@ -1,0 +1,34 @@
+program 
+ [ 
+ fundecls 
+ [ 
+ ]
+s  ;
+expr 
+ [ 
+ term 
+ [ 
+ factor 
+ [ 
+ integer_constant 
+ [ 
+i  23
+ ]
+ ]
+ ]
+ ]
+ ]
+expr 
+ [ 
+ term 
+ [ 
+ factor 
+ [ 
+ integer_constant 
+ [ 
+f  45.6
+ ]
+ ]
+ ]
+ ]
+ ]
