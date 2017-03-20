@@ -60,6 +60,8 @@ bc1710810979d36747709a42fe224ec3950276e3 j001 58
 WARNING: skipping this log entry because unknown task r00134
 6818e99a47f7ed4baa5ca4d7a0ec9705f848c936 time r00134
 -------- Current practice times 
+afbd3788f02655cbffb877c33c8d589f4cee780c h030 59
+d992763343aac271cef4d6b2d160a3fef3c0d0c8 h020 62
 59569ff7a2f140002c3e7d963454324a7a307832 h010 23
 7a007c47f09d41d1e6fce943fb37393cc158aeeb h020 24
 b084b9a47ce343643c2d8cda963d95922a283215 r001 53
@@ -95,12 +97,16 @@ facc9679123f50fe9a4d12c7ddf03f3f1ff99923 j200 57
 bc1710810979d36747709a42fe224ec3950276e3 j001 58
 754e1ccad4d790d715c7dcfa4aab57e23cbb0b9f j001 30
 ----- Summary Report
+WARNING: minutes reduced to 60.0 from 62
+d992763343aac271cef4d6b2d160a3fef3c0d0c8 h020 62
 @+@ javascript time for week found before rules applied 0.0
 @+@ ruby time for week found before rules applied 0.0
-@+@ haskell time for week found before rules applied 0.0
+@+@ haskell time for week found before rules applied 119.0
 ----- Time Log Report
 ------- By Task
-total time on all tasks according to this log was 0.0
+total time spent on task h030 was 59.0
+total time spent on task h020 was 60.0
+total time on all tasks according to this log was 119.0
 On unknown_date marking for previous week
 @+@ time from prior weeks on javascript 449.99999999999994
 @+@ time from prior weeks on ruby 401.942
@@ -108,11 +114,11 @@ On unknown_date marking for previous week
 @+@ time from prior weeks on discretionary 18.366
 javascript practice time for previous week 0.0
 ruby practice time for previous week 0.0
-haskell practice time for previous week 0.0
+haskell practice time for previous week 119.0
 discretionary practice time for previous week 0.0
 note: in each of following categories, can not exceed 450.0 minutes
 @@ minutes of javascript to date = 450.0
 @@ minutes of ruby to date = 401.942
-@@ minutes of haskell to date = 284.691
+@@ minutes of haskell to date = 403.691
 @@ minutes of discretionary practice to date = 18.366
-the percentage of weekly required practice time spent so far is 0.0% (target is 100.0%)
+the percentage of weekly required practice time spent so far is 66.111% (target is 100.0%)

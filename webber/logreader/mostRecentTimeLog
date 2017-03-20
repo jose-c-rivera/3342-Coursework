@@ -1,3 +1,5 @@
+afbd3788f02655cbffb877c33c8d589f4cee780c time h030 59 Main frame working Interpret the grammar(Q Notes 2)
+d992763343aac271cef4d6b2d160a3fef3c0d0c8 time h020 62 Handles ouput from h010 as input Parses gor integer and float
 59569ff7a2f140002c3e7d963454324a7a307832 time h010 23 Added conditions for parser to group components of each git log entry together Program does not compile*
 7a007c47f09d41d1e6fce943fb37393cc158aeeb time h020 24 Created frame of parser, needs work*
 b084b9a47ce343643c2d8cda963d95922a283215 time r001 53 Parser fully functional Now groups components by reading first characters per string
