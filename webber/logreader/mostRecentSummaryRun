@@ -5,12 +5,14 @@ h002
 h010
 h020
 h030
+h031
 j001
 j002
 j003
 j010
 j020
 j030
+j031
 j100
 j200
 r001
@@ -18,6 +20,7 @@ r002
 r010
 r020
 r030
+r031
 ----- Fetching list of already processed practice times
 WARNING: skipping this log entry because unknown task r00134
 6818e99a47f7ed4baa5ca4d7a0ec9705f848c936 time r00134
