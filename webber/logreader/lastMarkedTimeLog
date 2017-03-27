@@ -1,3 +1,7 @@
+e46cc5b21c5ac1878a4f0d67bc2d1d938b8d9025 time j100 15
+582fe9d58bcade88b415e096ea9eaaf8b75d6660 time j100 60
+1cd83e3002a8c73356a5013aabf57944074dcc73 time r010 46
+eb184d5539a16050788cde6f0b8ffab2e524d0a5 time h031 62 Stage 7 functioning, stuck at 8b3
 3724cf42110ef77d4d1723a56328ae42a19d8740 time r030 60 Interpreter not functioning, Outputs same as input but does not recognize
 160a69ba8bf25c526d47476a5ef63a5b8232368d time j100 2
 afbd3788f02655cbffb877c33c8d589f4cee780c time h030 59 Main frame working Interpret the grammar(Q Notes 2)
