@@ -1,0 +1,48 @@
+body {
+    background: url(http://eskipaper.com/images/plain-blue-background-2.jpg) no-repeat;
+}
+
+head {
+    background: url(http://eskipaper.com/images/plain-blue-background-2.jpg) no-repeat;
+}
+
+#title{
+   text-align: center;
+   width:800px; 
+   margin:0 auto;
+}
+
+h1{
+   font-family: sans-serif;
+}
+
+h2{
+   font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFA500;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FF8C00;
+    color: black;
+}

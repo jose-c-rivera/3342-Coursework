@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head>		
+		<ul>
+  			<li><a href="https://www.google.ca">Google</a></li>
+  			<li><a href="https://www.youtube.com/">YouTube</a></li>
+  			<li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+  			<li><a href="https://www.twitch.tv/">Twitch</a></li>
+		</ul>	
+ 		<link rel="stylesheet" href="edit.css">
 		<title>Task j001</title>
 		<script>
 		</script>
 	</head>
 	<body onLoad = "startTimer()">
-	
+		
+		<div id="title">
 		<h1>JavaScript: Task j001</h1>
 		<div>
 		The elapsed time is now <span id="ELAPSED"></span>
 		</div>		
 		<button id="reset" onclick="resetTimer()">Reset</button>
 		<button id="pause" onclick="pause_Resume()">Pause</button>
+		</div>		
+
 		<script>
 		
 			
@@ -25,10 +35,11 @@
                 else {
                     change.innerHTML = "Pause";
                 }
-            }
+                }
 		
 		</script>
 		<hr />
+		<div id="title">
 		<img src ="http://drainandductscoping.com/wp-content/uploads/2015/11/calendar-button-300x300.png" width ="100" height = "100"/>
 		<h3> Current date and time: </h3>
 		<br />
@@ -87,6 +98,7 @@
 	
 		</script>
 		<br />
+		</div>
 		
 	</body>
 </html>
