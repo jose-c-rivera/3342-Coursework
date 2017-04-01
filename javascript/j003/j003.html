@@ -4,11 +4,23 @@
 		<title>Task j003</title>
 	</head>
 	<body>
+		<ul>
+  			<li><a href="https://www.google.ca">Google</a></li>
+  			<li><a href="https://www.youtube.com/">YouTube</a></li>
+  			<li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+  			<li><a href="https://www.twitch.tv/">Twitch</a></li>
+		</ul>	
+ 		<link rel="stylesheet" href="edit.css">
+		<div id="title">
 		<h1>JavaScript: Task j003</h1>
+		<img src="https://rezlife.uwo.ca/images/footer_westernlogo.png">
+		<h2>CS 3342 Final Exam Practice Tool</h2>
+		</div>
 		<hr />
-		<h4> Correct Answers: </h4>
+		<div id="title">
+		<b><h4>Correct Answers: </h4></b>
 		<input type="text" name="correct_box" id="correct_box" readOnly="true" value="0"/>
-		<h4> Incorrect Answers: </h4>
+		<b><h4> Incorrect Answers: </h4></b>
 		<input type="text" name="incorrect_box" id="incorrect_box" readOnly="true" value="0"/>
 		<div id="placeholder"></div>
 		<script src ="examdatabase.js"></script>
@@ -18,17 +30,18 @@
 		<button id="Answer" onclick="answer()">Answer</button>
 		<div id = 'question_space'></div>
 		<div id = 'answer_space'></div>
-		<h3>Was your answer correct?</h3>
-		<p>Note: The next question will not be displayed until a selection has been made.</p>
+		<b><h3>Was your answer correct?</h3></b>
+		<b><p>Note: The next question will not be displayed until a selection has been made.</p></b>
 		<button id="Yes" onclick="correct()">Yes</button>
 		<button id="No" onclick="incorrect()">No</button>
 		<button id="Undo" onclick="undo()">Undo</button>
 		<button id="New Question" onclick="newQ()">New Question</button>
 		<br/><br/><br/>
-		<h3>How many did you get wrong?</h3>
+		<b><h3>How many did you get wrong?</h3></b>
 		<p>Read your report below</p>
 		<button id="Get Report" onclick="printRep()">Get Report</button>
 		<button id="Clear" onclick="clear()">Clear</button>
+		</div>
 		
 	</body>
 </html>

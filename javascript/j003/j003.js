@@ -3,11 +3,11 @@ var qnum = 0;
 document.write(examdatabase.description);
 
 function question(){
-	document.getElementById('question_space').innerHTML = "Question #" + qnum + ":"  + examdatabase.questions[qnum].question;
+	document.getElementById('question_space').innerHTML = "Question #" + qnum + ": "  + examdatabase.questions[qnum].question;
 }
 
 function answer(){
-	document.getElementById('answer_space').innerHTML = "Answer #" + qnum + ":" + examdatabase.questions[qnum].answer;
+	document.getElementById('answer_space').innerHTML = "Answer #" + qnum + ": " + examdatabase.questions[qnum].answer;
 }
 
 function correct(){
