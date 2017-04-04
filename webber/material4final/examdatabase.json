@@ -8,7 +8,7 @@
   "description": "questions from which to construct the Winter 2017 final exam in CS3342b",
   "questions": [
      {
-        "question": "Adding a feature to a programming language to make it easier to do something that was already doable is called adding ANSWER?",
+        "question": "Adding a feature to a programming language to make it easier to do something that was already doable is called adding ANSWER.",
         "answer": "syntactic sugar",
         "note": "optional note",
         "source": "SLSW2"
@@ -260,7 +260,7 @@
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of h?"
+        "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of h."
         "answer": "3",
         "note": "optional note",
         "source": "SLSW8"
@@ -951,8 +951,114 @@
         "note": "optional note",
         "source": "SLSW7"
      },
-
-
+     {
+        "question": "One approach to speeding up an interpreter is to translates pieces of the code being interpreted directly into machine code during program execution, this is called ANSWER.",
+        "answer": "just-in-time compilation",
+        "note": "optional note",
+        "source": "ICD6"
+     },
+     {
+        "question": "The technical term for the compiler design methodology where the translation closely follows the syntax of the language is ANSWER.",
+        "answer": "syntax directed translation",
+        "note": "optional note",
+        "source": "ICD6"
+     },
+     {
+        "question": "Using the straightfoward expression translation scheme in the textbook, if I were to TransExp('3 * x + 1', vtable, ftable), newvar() will be invoked ANSWER times",
+        "answer": "5",
+        "note": "optional note",
+        "source": "ICD6"
+     },
+     {
+        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('if true then z := 1 else z := 2', vtable, ftable), newlabel() be invoked ANSWER times",
+        "answer": "3",
+        "note": "optional note",
+        "source": "ICD6"
+     },
+     {
+        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while true do z := 1 + z', vtable, ftable), newlabel() be invoked ANSWER times",
+        "answer": "3",
+        "note": "optional note",
+        "source": "ICD6"
+     },
+     {
+        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while z < 3 do z := 1 + z', vtable, ftable), newvar() be invoked ANSWER times",
+        "answer": "5",
+        "note": "optional note",
+        "source": "ICD6"
+     },
+     {
+        "question": "Type checking done during program execution is called ANSWER",
+        "answer": "dynamic typing",
+        "note": "optional note",
+        "source": "ICD5"
+     },
+     {
+        "question": "Type checking done during program compilation is called ANSWER",
+        "answer": "static typing",
+        "note": "optional note",
+        "source": "ICD5"
+     },
+     {
+        "question": "ANSWER typing is when the language implementation ensures that the arguments of an operation are of the type the operation is defined for",
+        "answer": "Strong",
+        "note": "optional note",
+        "source": "ICD5"
+     },
+     {
+        "question": "ANSWER is the data structure used in language translation to track the binding of variables and functions to their type",
+        "answer": "A symbol table",
+        "note": "optional note",
+        "source": "ICD5"
+     },
+     {
+        "question": "The different traversals of a syntax tree done during compilation associate information with the nodes of the tree.  The technical term for this kind of information is ANSWER",
+        "answer": "attributes",
+        "note": "optional note",
+        "source": "ICD5"
+     },
+     {
+        "question": "ANSWER means that the language allows the same name to be used for different operations over different types",
+        "answer": "Overloading",
+        "note": "optional note",
+        "source": "ICD5"
+     },
+     {
+        "question": "Some languages allow a function to be ANSWER, that is to be defined over a large class of similar types, e.g., over arrays no matter what type their elements are.",
+        "answer": ["polymorphic","generic"],
+        "note": "optional note",
+        "source": "ICD5"
+     },
+     {
+        "question": "When a function is invoked, if the language passes a copy of the value of each parameter to the code that performs the function, this is called ANSWER",
+        "answer": "call-by-value",
+        "note": "optional note",
+        "source": "ICD9"
+     },
+     {
+        "question": "If the system stack is used for a call stack, then it becomes important for the caller to update the top of the stack before copying items into it.  The reason is because we are worried about the top of the stack being changed by ANSWER after we have copied in information but before we updated the stack top",
+        "answer": "an interrupt",
+        "note": "optional note",
+        "source": "ICD9"
+     },
+     {
+        "question": "The portion of the call stack associated with a single function invocation and running is called ANSWER",
+        "answer": "an activation record",
+        "note": "optional note",
+        "source": "ICD9"
+     },
+     {
+        "question": "Another method of parameter passing whose technical name is ANSWER, is implemented by passing the address of the variable (or whatever the given parameter is).  Assigning to such a parameter would then change the value stored at the address.",
+        "answer": "call-by-reference",
+        "note": "optional note",
+        "source": "ICD9"
+     },
+     {
+        "question": "In C, when you pass a function as a parameter to another function, it is implemented as passing ANSWER",
+        "answer": "the address of the start of the function code",
+        "note": "optional note",
+        "source": "ICD9"
+     },
     null
   ]
 }
