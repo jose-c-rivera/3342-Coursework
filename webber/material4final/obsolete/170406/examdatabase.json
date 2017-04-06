@@ -242,109 +242,109 @@
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with factorial 0 = 1.  This second style is called ANSWER.",
+        "question": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with factorial 0 = 1.  This second style is called ANSWER."
         "answer": "pattern matching",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with | x > 1 = x * factorial ( x - a).  This second style is called ANSWER.",
+        "question": "In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with | x > 1 = x * factorial ( x - a).  This second style is called ANSWER."
         "answer": "using guards",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, instead of writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would write ANSWER",
+        "question": "In Haskell, instead of writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would write ANSWER"
         "answer": "second = head . tail",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of h.",
+        "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of h."
         "answer": "3",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of t",
+        "question": "In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the value of t"
         "answer": "[5, 7]",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, ANSWER is the output of zip [17..20] [10,8..4]",
+        "question": "In Haskell, ANSWER is the output of zip [17..20] [10,8..4]"
         "answer": "[(17,10),(18,8),(19,6),(20,4)]",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, ANSWER is the output of zip [20..17] [10,8..4]",
+        "question": "In Haskell, ANSWER is the output of zip [20..17] [10,8..4]"
         "answer": "[]",
         "note": "default increment is 1 and zip only goes as far as shortest argument list.",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, defining lists using a notation like [x * 2 | x <- [3, 4, 5]] is called using ANSWER",
+        "question": "In Haskell, defining lists using a notation like [x * 2 | x <- [3, 4, 5]] is called using ANSWER"
         "answer": "list comprehensions",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, [x * 2 | x <- [3, 4, 5]]  evaluates to ANSWER",
+        "question": "In Haskell, [x * 2 | x <- [3, 4, 5]]  evaluates to ANSWER"
         "answer": "[6, 8, 10]",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, defining lists using a notation like [x * 2 | x <- [3, 4, 5] is called using ANSWER",
+        "question": "In Haskell, defining lists using a notation like [x * 2 | x <- [3, 4, 5] is called using ANSWER"
         "answer": "list comprehensions",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, how would you write an anonymous function so that map ANSWER [1, 2, 3] produces [-4, -5, -6]",
+        "question": "In Haskell, how would you write an anonymous function so that map ANSWER [1, 2, 3] produces [-4, -5, -6]"
         "answer": "(\\x -> - (x + 3))",
         "note": "note above should contain just a single backslash, which in Haskell we would read as lambda",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, if we want to define a local named function inside a function definition, we use the keyword ANSWER",
+        "question": "In Haskell, if we want to define a local named function inside a function definition, we use the keyword ANSWER"
         "answer": "where",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, the type signature of the function sum x y = x + y is ANSWER",
+        "question": "In Haskell, the type signature of the function sum x y = x + y is ANSWER"
         "answer": "(Num a) => a -> a -> a",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, given the definition sum x y = x + y, ANSWER is the value of that is produced by the expresion (sum 3)",
+        "question": "In Haskell, given the definition sum x y = x + y, ANSWER is the value of that is produced by the expresion (sum 3)"
         "answer": "(\\x -> 3 + x)",
         "note": "again, that should be just one back slash in the answer, the actual parameter name doesn't matter to the answer as long as it is used consistently",
         "source": "SLSW8"
      },
      {
-        "question": "The way Haskell handles functions with more than one parameter is called ANSWER",
+        "question": "The way Haskell handles functions with more than one parameter is called ANSWER"
         "answer": "currying",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In most languages, a function definition like f a b = a : (f (a + b) b) would result in an infinite recursion.  However, in Haskell we can partially evaluate functions like this because Haskell is based on ANSWER",
+        "question": "In most languages, a function definition like f a b = a : (f (a + b) b) would result in an infinite recursion.  However, in Haskell we can partially evaluate functions like this because Haskell is based on ANSWER"
         "answer": "lazy evaluation",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "Although Haskell is a statically typed language, we usually don't need to write type declarations because Haskell uses ANSWER to handle the matter.",
+        "question": "Although Haskell is a statically typed language, we usually don't need to write type declarations because Haskell uses ANSWER to handle the matter."
         "answer": "type inference",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, we can declare the type of a parameter to a function to be something specific like Num.  However, we can also declare the type of a parameter to be something that could include many types like ListLike that supports the functions head and tail.  We do this with a definition of ListLike that begins with the keyword ANSWER.",
+        "question": "In Haskell, we can declare the type of a parameter to a function to be something specific like Num.  However, we can also declare the type of a parameter to be something that could include many types like ListLike that supports the functions head and tail.  We do this with a definition of ListLike that begins with the keyword ANSWER."
         "answer": "class",
         "note": "optional note",
         "source": "SLSW8"
@@ -491,7 +491,7 @@
      },
      {
         "question": "The central idea of context-free grammars is to define a language by productions.  These productions say that a nonterminal symbol can be replaced by ANSWER",
-        "answer": ["a sequence of terminals and nonterminals", "a sequence of symbols"],
+        "answer": ["a sequence of terminals and nonterminals", "a sequence of symbols"]
         "note": "first answer is clearer, but second answer is consistent with book usage of the term symbol",
         "source": "ICD2"
      },
