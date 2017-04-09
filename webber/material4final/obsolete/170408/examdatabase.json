@@ -20,7 +20,7 @@
         "source": "SLSW2"
      },
      {
-        "question": "A programming language is called ANSWER if it is executed directly by an interpreter rather than by first being compiled with a compiler.",
+        "question": "A programming language is called ANSWER if it is executed by an interpreter rather than by first being compiled with a compiler.",
         "answer": "interpreted",
         "note": "optional note",
         "source": "SLSW2"
@@ -32,31 +32,31 @@
         "source": "SLSW2"
      },
      {
-        "question": "In describing the properties of an object-oriented language, encapsulation means ANSWER.",
+        "question": "In describing the properties of an object oriented language, encapsulation means ANSWER.",
         "answer": ["data and behavior are packaged together", "there is a mechanism for restricting access to an object's components"],
         "note": "the first is the textbook answer, but there are actually two usages of the term encapsulation in the object-oriented programming community https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)",
         "source": "SLSW2"
      },
      {
-        "question": "In discussing object-oriented languages, objects are organized into a class tree to support the property of ANSWER.",
+        "question": "In discussing object oriented languages, objects are organized into a class tree to support the property of ANSWER.",
         "answer": "inheritance",
         "note": "optional note",
         "source": "SLSW2"
      },
      {
-        "question": "In discussing object-oriented languages, being able to handle objects of related types is called ANSWER.",
+        "question": "In discussing object oriented languages, being able to handle objects of related types is called ANSWER.",
         "answer": "polymorphism",
-        "note": "polymorphism has a different usage in the object-oriented programming community than in the functional programming community",
+        "note": "polymorphism has a different usage in the object oriented programming community than in the functional programming community",
         "source": "SLSW2"
      },
      {
         "question": "The application that caused a significant increase in the popularity of Ruby was a web framework called ANSWER.",
-        "answer": ["Rails", "Ruby on Rails"],
+        "answer": "Rails (or Ruby on Rails)",
         "note": "optional note",
         "source": "SLSW2"
      },
      {
-        "question": "The main concurrency approach used in Ruby is ANSWER.",
+        "question": "The concurrency approach used in Ruby is ANSWER.",
         "answer": "threads",
         "note": "optional note",
         "source": "SLSW2"
@@ -80,7 +80,7 @@
         "source": "SLSW2"
      },
      {
-        "question": "In Ruby, normally, when you try to add a String to a Fixnum, you get an error message saying that a String can't be coerced to a Fixnum.  This is because Ruby is ANSWER typed.",
+        "question": "In Ruby, normally, when you try to add a String to a Fixnumm, you get an error message saying that a String can't be coerced to a Fixnum.  This is because Ruby is ANSWER typed.",
         "answer": "strongly",
         "note": "optional note",
         "source": "SLSW2"
@@ -92,7 +92,7 @@
         "source": "SLSW2"
      },
      {
-        "question": "A major claim in object-oriented design philosophy is that you should code to ANSWER rather than code to implementation.",
+        "question": "A major claim in object oriented design philosophy is that you should code to ANSWER rather than code to implementation.",
         "answer": "interface",
         "note": "this is discussed in more detail elsewhere http://www.artima.com/lejava/articles/designprinciplesP.html",
         "source": "SLSW2"
@@ -224,7 +224,7 @@
         "source": "SLSW8"
      },
      {
-        "question": "The type of a string constant in Haskell, by default, is written ANSWER.",
+        "question": "The type of a string in Haskell, by default, is written ANSWER.",
         "answer": "[Char]",
         "note": "optional note",
         "source": "SLSW8"
@@ -296,6 +296,12 @@
         "source": "SLSW8"
      },
      {
+        "question": "In Haskell, defining lists using a notation like [x * 2 | x <- [3, 4, 5] is called using ANSWER.",
+        "answer": "list comprehensions",
+        "note": "optional note",
+        "source": "SLSW8"
+     },
+     {
         "question": "In Haskell, how would you write an anonymous function so that map ANSWER [1, 2, 3] produces [-4, -5, -6].",
         "answer": "(\\x -> - (x + 3))",
         "note": "note above should contain just a single backslash, which in Haskell we would read as lambda",
@@ -332,13 +338,13 @@
         "source": "SLSW8"
      },
      {
-        "question": "Although Haskell is a statically typed language, we usually don't need to write type declarations because Haskell uses ANSWER to figure out what the types are.",
+        "question": "Although Haskell is a statically typed language, we usually don't need to write type declarations because Haskell uses ANSWER to handle the matter.",
         "answer": "type inference",
         "note": "optional note",
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, we can declare the type of a parameter to a function to be something specific like Char.  However, we can also declare the type of a parameter to be something that could include many types like ListLike that supports the functions head and tail.  We do this with a definition of ListLike that begins with the keyword ANSWER.",
+        "question": "In Haskell, we can declare the type of a parameter to a function to be something specific like Num.  However, we can also declare the type of a parameter to be something that could include many types like ListLike that supports the functions head and tail.  We do this with a definition of ListLike that begins with the keyword ANSWER.",
         "answer": "class",
         "note": "optional note",
         "source": "SLSW8"
@@ -363,7 +369,7 @@
         "source": "SLSW8"
      },
      {
-        "question": "Since Haskell doesn't have traditional error handling, by convention, people use the ANSWER monad to distinguish a valid return from an error return.",
+        "question": "Since Haskell doesn't have traditional error handling, by convention people use the ANSWER monad to distinguish a valid return from an error return.",
         "answer": "Maybe",
         "note": "this is similar to NaN's usage in IEEE standard floating point arithmetic",
         "source": "SLSW8"
@@ -435,8 +441,8 @@
         "source": "SLSW3"
      },
      {
-        "question": "Io is known for taking ANSWER -based approach to object-oriented programming.",
-        "answer": "a prototype",
+        "question": "Io is known for taking a ANSWER -based approach to object oriented programming.",
+        "answer": "prototype",
         "note": "optional note",
         "source": "SLSW3"
      },
@@ -473,12 +479,12 @@
      },
      {
         "question": "Io allows programmers to play with its syntax, doing things like introducing a colon operator and redefining how curly braces are processed.  This makes it easy to use Io to create ANSWER.",
-        "answer": ["Domain Specific Languages","DSLs"],
+        "answer": "Domain Specific Languages",
         "note": "optional note",
         "source": "SLSW3"
      },
      {
-        "question": "As one would expect in an object-oriented language, when a message is sent to an object, the first thing the system does is to look for a corresponding method in that object.  However, Io lets you change what happens next by redefining the method named ANSWER.",
+        "question": "As one would expect in an object oriented language, when a message is sent to an object, the first thing the system does is to look for a corresponding method in that object.  However, Io lets you change what happens next by redefining the method named ANSWER.",
         "answer": "forward",
         "note": "optional note",
         "source": "SLSW3"
