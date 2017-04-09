@@ -296,7 +296,7 @@
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, how would you write an anonymous function so that the expression `map ANSWER [1, 2, 3]' produces [-4, -5, -6].",
+        "question": "In Haskell, how would you write an anonymous function so that map ANSWER [1, 2, 3] produces [-4, -5, -6].",
         "answer": "(\\x -> - (x + 3))",
         "note": "note above should contain just a single backslash, which in Haskell we would read as lambda",
         "source": "SLSW8"
@@ -344,14 +344,14 @@
         "source": "SLSW8"
      },
      {
-        "question": "One of the three most significant parts of a monad is called ANSWER, which wraps up a function and puts it in the monad's container.",
+        "question": "One of the three most significant parts of a monad is called ANSWER, which wraps up a function and puts it in the container.",
         "answer": "return",
         "note": "optional note",
         "source": "SLSW8"
      },
 
      {
-        "question": "One of the three most significant parts of a Haskell monad is called ANSWER, which unwraps a function.",
+        "question": "One of the three most significant parts of a Haskell monad is called ANSWER, which unwraps up a function.",
         "answer": [">>=", "a bind function"],
         "note": "optional note",
         "source": "SLSW8"
@@ -393,7 +393,7 @@
         "source": "ICD1"
      },
      {
-        "question": "When viewed formally, a language is defined as a set of ANSWER.",
+        "question": "When viewed abstractly, a language is defined as a set of ANSWER.",
         "answer": "strings",
         "note": "optional note",
         "source": "ICD1"
@@ -490,13 +490,13 @@
         "source": "ICD2"
      },
      {
-        "question": "The specific type of context-free grammar that was the main focus of the portion of the Syntax Analysis chapter that was assigned was ANSWER.",
+        "question": "The specific type of grammar that was the main focus of the portion of the Syntax Analysis chapter that was assigned was ANSWER.",
         "answer": "LL(1)",
         "note": "optional note",
         "source": "ICD2"
      },
      {
-        "question": "In a context-free grammar, the nonterminal that derives an entire member of the language being defined is called ANSWER.",
+        "question": "In a context-free grammar, the nonterminal that corresponds to a entire member of the language being defined is called ANSWER.",
         "answer": "a start symbol",
         "note": "optional note",
         "source": "ICD2"
@@ -520,7 +520,7 @@
         "source": "ICD2"
      },
      {
-        "question": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar X -> X c Y , Y -> X ,  Y -> and X -> .",
+        "question": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar X -> X c Y , Y -> X  Y -> and X -> .",
         "answer": "X => XcY => XcYcY => cYcY => ccY => cc and X => XcY => XcX => XcXcY => cXcY => ccY => cc",
         "note": "optional note",
         "source": "ICD2"
@@ -532,13 +532,13 @@
         "source": "ICD2"
      },
      {
-        "question": "If I wanted to fix the grammar E -> E + E and E -> id, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.",
+        "question": "If I wanted to fix the grammar E -> E + E and E -> id, so that it would only produce one syntax that is left recursive, the new grammar would be ANSWER.",
         "answer": "E -> E + F and E -> F and F -> id",
         "note": "the actual name of the nonterminals doesn't matter as long as they have this pattern of usage",
         "source": "ICD2"
      },
      {
-        "question": "One aspect of the if-then-else-end syntax of Ruby is that it avoids the ANSWER problem.",
+        "question": "One aspect of the if then else end syntax of Ruby is that it avoids the ANSWER problem.",
         "answer": "dangling else",
         "note": "optional note",
         "source": "ICD2"
@@ -604,25 +604,31 @@
         "source": "SLSW4"
      },
      {
-        "question": "In Prolog, the most natural way to express the fact that `a lion is a cat' is ANSWER.",
+        "question": "Programming languages that view programming as describing a step-by-step process to do something are called ANSWER languages.",
+        "answer": "imperative",
+        "note": "optional note",
+        "source": "SLSW4"
+     },
+     {
+        "question": "In Prolog, the most natural way to express the fact that a lion is a cat is ANSWER.",
         "answer": ["cat(lion).", "is_a(lion, cat)."],
         "note": "optional note",
         "source": "SLSW4"
      },
      {
-        "question": "In Prolog, the most natural way to express the query `what animals are cats?' is ANSWER.",
+        "question": "In Prolog, the most natural way to express the query what animals are cats is ANSWER.",
         "answer": ["cat(What).", "cats(What).", "is_a(What, cat).", "are(What, cats)."],
         "note": "optional note",
         "source": "SLSW4"
      },
      {
-        "question": "In Prolog, the most natural way to express the rule that `I am an ancestor of you if I am a parent of you' is ANSWER.",
+        "question": "In Prolog, the most natural way to express the rule that I am an ancestor of you if I am a parent of you is ANSWER.",
         "answer": "ancestor(I, You) :- parent(I, You).",
         "note": "optional note",
         "source": "SLSW4"
      },
      {
-        "question": "In Prolog, the most natural way to express the rule that `I am an ancestor of you if I am a parent of an ancestor of you' is ANSWER.",
+        "question": "In Prolog, the most natural way to express the rule that I am an ancestor of you if I am a parent of an ancestor of you is ANSWER.",
         "answer": "ancestor(I, You) :- parent(I, Ancestor), ancestor(Ancestor, You). ",
         "note": "optional note",
         "source": "SLSW4"
@@ -641,7 +647,7 @@
      },
      {
         "question": "In Prolog, the expression hi(X, 4) = hi(3, X) causes X to have the value ANSWER.",
-        "answer": ["X will not be bound and the expression will fail", "X will not be bound"],
+        "answer": ["X will not be bound and the expression will fail", "X will be bound"],
         "note": "optional note",
         "source": "SLSW4"
      },
@@ -694,7 +700,7 @@
         "source": "ICD3"
      },
      {
-        "question": "The portion of the program where the name is visible is called its ANSWER.",
+        "question": "The portion of the program where the name is visible is called its ANSWER",
         "answer": "scope",
         "note": "optional note",
         "source": "ICD3"
@@ -706,20 +712,20 @@
         "source": "ICD3"
      },
      {
-        "question": "A compiler typically keeps track of which names are associated with which objects by using ANSWER.",
+        "question": "A compiler typically keeps track of which names are associated with which objects by using ANSWER",
         "answer": ["a symbol table", "an environment"],
         "note": "optional note",
         "source": "ICD3"
      },
      {
         "question": "ANSWER data structures have the property that no operation on the structure will destroy or modify it.",
-        "answer": ["persistent", "functional", "immutable"],
+        "answer": ["persistent", "functional"],
         "note": "optional note",
         "source": "ICD3"
      },
      {
         "question": "ANSWER data structures have the property that there are operations on the structure can destroy or modify it.",
-        "answer": ["imperative", "destructively updated", "mutable"],
+        "answer": ["imperative", "destructively updated"],
         "note": "optional note",
         "source": "ICD3"
      },
@@ -730,43 +736,43 @@
         "source": "ICD3"
      },
      {
-        "question": "In the ICD textbook's example interpreter for evaluating expressions, in the row labelled id, we have the code: v = lookup(vtable, getname(id)) ; if v = unbound then error() else v.  It says getname(id) instead of id, because ANSWER.",
+        "question": "In the example interpreter for evaluating expressions, in the row labelled id, we have the code: v = lookup(vtable, getname(id)) ; if v = unbound then error() else v.  It says getname(id) instead of id, because ANSWER.",
         "answer": "id indicates a token with a type and value field",
         "note": "optional note",
         "source": "ICD4"
      },
      {
-        "question": "In the ICD textbook's example interpreter for evaluating expressions, in the row labelled id, we have the code: v = lookup(vtable, getname(id)) ; if v = unbound then error() else v.  The value of v would be unbound in the situation that ANSWER.",
+        "question": "In the example interpreter for evaluating expressions, in the row labelled id, we have the code: v = lookup(vtable, getname(id)) ; if v = unbound then error() else v.  The value of v would be unbound in the situation that ANSWER.",
         "answer": ["getname(id) was not declared","getname(id) was not bound"],
         "note": "optional note",
         "source": "ICD4"
      },
      {
-        "question": "In the ICD textbook's example interpreter for evaluating expressions, in the row labelled id(Exps), we have the code: args = EvalExps(Exps,vtable,ftable).  We pass vtable to EvalExps to handle ANSWER.",
+        "question": "In the example interpreter for evaluating expressions, in the row labelled id(Exps), we have the code: args = EvalExps(Exps,vtable,ftable).  We pass vtable to EvalExps to handle ANSWER.",
         "answer": "expressions that contain identifiers",
         "note": "optional note",
         "source": "ICD4"
      },
      {
-        "question": "In the ICD textbook's example interpreter for evaluating expressions, in the row labelled id(Exps), we have the code: args = EvalExps(Exps,vtable,ftable).  We pass ftable to EvalExps to handle ANSWER.",
+        "question": "In the example interpreter for evaluating expressions, in the row labelled id(Exps), we have the code: args = EvalExps(Exps,vtable,ftable).  We pass ftable to EvalExps to handle ANSWER.",
         "answer": "expressions that contain function usages",
         "note": "optional note",
         "source": "ICD4"
      },
      {
-        "question": "In the ICD textbook's example interpreter for evaluating expressions, in the row labelled let id = Exp1 in Exp2, we have the code: v1 = EvalExp(Exp1, vtable, ftable); vtableP = bind(vtable, getname(id), v1), EvalExp(Exp2, vtableP, ftable).  The bind function changes vtable into vtableP by ANSWER.",
-        "answer": ["inserting the association of getname(id) with the value v1 into the table", "inserting the binding of getname(id) with the value v1 into the table"],
+        "question": "In the example interpreter for evaluating expressions, in the row labelled let id = Exp1 in Exp2, we have the code: v1 = EvalExp(Exp1, vtable, ftable); vtableP = bind(vtable, getname(id), v1), EvalExp(Exp2, vtableP, ftable).  The bind function changes vtable into vtableP by ANSWER.",
+        "answer": "inserting the association of getname(id) with the value v1 into the table",
         "note": "optional note",
         "source": "ICD4"
      },
      {
-        "question": "Scala was designed to connect two programming paradigms, which were ANSWER.",
+        "question": "Scala was designed to connect two programming paradigms, which were ANSWER",
         "answer": "object-oriented and functional",
         "note": "optional note",
         "source": "SLSW5"
      },
      {
-        "question": "Another design goal for Scala was to have its programs easily interoperate with those written in ANSWER.",
+        "question": "Another design goal for Scala was to have its programs easily interoperate with those written in ANSWER",
         "answer": "Java",
         "note": "optional note",
         "source": "SLSW5"
@@ -778,13 +784,13 @@
         "source": "SLSW5"
      },
      {
-        "question": "Scala uses few type declarations because its compiler does ANSWER.",
+        "question": "Scala uses few type declarations because its compiler does ANSWER",
         "answer": "type inferencing",
         "note": "optional note",
         "source": "SLSW5"
      },
      {
-        "question": "The main concurrency method used in Scala is ANSWER.",
+        "question": "The main concurrency method used in Scala is ANSWER",
         "answer": "actors",
         "note": "optional note",
         "source": "SLSW5"
@@ -808,13 +814,13 @@
         "source": "SLSW5"
      },
      {
-        "question": "The Scala feature closest to a Ruby mixin is the ANSWER.",
+        "question": "The Scala feature closest to a Ruby mixin is the ANSWER",
         "answer": "trait",
         "note": "optional note",
         "source": "SLSW5"
      },
      {
-        "question": "In Scala, the type that every type is a subtype of is called ANSWER.",
+        "question": "In Scala, the type that every type is a subtype of is calleed ANSWER.",
         "answer": "Any",
         "note": "optional note",
         "source": "SLSW5"
@@ -832,7 +838,7 @@
         "source": "SLSW5"
      },
      {
-        "question": "The ! in Scala is used to ANSWER.",
+        "question": "The ! in Scala is used to ANSWER",
         "answer": "send a message to an actor",
         "note": "optional note",
         "source": "SLSW5"
@@ -856,13 +862,13 @@
         "source": "SLSW6"
      },
      {
-        "question": "An unusual built-in constant construct in Erlang lets us write <<4:3,1:3>> to represent the value ANSWER.",
+        "question": "An unusual built-in constant construct in Erlang lets us write <<4:3,1:3>> to represent the value ANSWER",
         "answer": ["!","octal 41", "decimal 33", "hexidecimal 21"],
         "note": "optional note",
         "source": "SLSW6"
      },
      {
-        "question": "Many syntax features of Erlang, such as ending statements with a period, reflect the influence of the programming language ANSWER.",
+        "question": "Many syntax features of Erlang, such as ending statements with a period, reflect the influence of the programming language ANSWER",
         "answer": "Prolog",
         "note": "optional note",
         "source": "SLSW6"
@@ -880,7 +886,7 @@
         "source": "SLSW6"
      },
      {
-        "question": "In Ruby, you would group methods into a class.  In Erlang, you group functions into ANSWER.",
+        "question": "In Ruby, you would group methods into a class, in Erlang, you group functions into ANSWER.",
         "answer": "a module",
         "note": "optional note",
         "source": "SLSW6"
@@ -940,14 +946,14 @@
         "source": "SLSW7"
      },
      {
-        "question": "One approach to speeding up an interpreter is to translate pieces of the code being interpreted directly into machine code during program execution, this is called ANSWER.",
+        "question": "One approach to speeding up an interpreter is to translates pieces of the code being interpreted directly into machine code during program execution, this is called ANSWER.",
         "answer": "just-in-time compilation",
         "note": "optional note",
         "source": "ICD6"
      },
      {
         "question": "The technical term for the compiler design methodology where the translation closely follows the syntax of the language is ANSWER.",
-        "answer": "syntax-directed translation",
+        "answer": "syntax directed translation",
         "note": "optional note",
         "source": "ICD6"
      },
@@ -1036,7 +1042,7 @@
         "source": "ICD9"
      },
      {
-        "question": "Another method of parameter passing, whose technical name is ANSWER, is implemented by passing the address of the variable (or whatever the given parameter is).  Assigning to such a parameter would then change the value stored at the address.",
+        "question": "Another method of parameter passing whose technical name is ANSWER, is implemented by passing the address of the variable (or whatever the given parameter is).  Assigning to such a parameter would then change the value stored at the address.",
         "answer": "call-by-reference",
         "note": "optional note",
         "source": "ICD9"
