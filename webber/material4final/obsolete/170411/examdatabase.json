@@ -243,7 +243,7 @@
      {
         "question": "In Haskell, if I define a function double = x + x, its type signature would be ANSWER.",
         "answer": "(Num a) => a -> a",
-        "lanswer": "$(Num \\quad a) \\Rightarrow a \\rightarrow a$",
+        "lanswer": "$(Num a) \\Rightarrow a \\rightarrow a$",
         "note": "optional note",
         "source": "SLSW8"
      },
@@ -329,7 +329,7 @@
      {
         "question": "In Haskell, the type signature of the function sum x y = x + y is ANSWER.",
         "answer": "(Num a) => a -> a -> a",
-        "lanswer": "$(Num \\quad a) => a \\rightarrow a \\rightarrow a$",
+        "lanswer": "$(Num a) => a \\rightarrow a \\rightarrow a$",
         "note": "optional note",
         "source": "SLSW8"
      },
@@ -551,8 +551,8 @@
      {
         "question": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar X -> X c Y , Y -> X ,  Y -> and X -> .",
         "lquestion": "ANSWER are two derivations of the string cc that produce distinct syntax trees from the context-free grammar $X \\rightarrow X c Y$ , $Y \\rightarrow X$ ,  $Y \\rightarrow$ and $X \\rightarrow$ .",
-        "answer": "X => XcY => XcYcY => cYcY => ccY => cc AND X => XcY => XcX => XcXcY => cXcY => ccY => cc",
-        "lanswer": "$X \\Rightarrow XcY \\Rightarrow XcYcY \\Rightarrow cYcY \\Rightarrow ccY \\Rightarrow cc$ AND $X \\Rightarrow XcY \\Rightarrow XcX \\Rightarrow XcXcY \\Rightarrow cXcY \\Rightarrow ccY \\Rightarrow cc$",
+        "answer": "X => XcY => XcYcY => cYcY => ccY => cc and X => XcY => XcX => XcXcY => cXcY => ccY => cc",
+        "lanswer": "$X \\Rightarrow XcY \\Rightarrow XcYcY \\Rightarrow cYcY \\Rightarrow ccY \\Rightarrow cc and X \\Rightarrow XcY \\Rightarrow XcX \\Rightarrow XcXcY \\Rightarrow cXcY \\Rightarrow ccY \\Rightarrow cc$",
         "note": "optional note",
         "source": "ICD2"
      },

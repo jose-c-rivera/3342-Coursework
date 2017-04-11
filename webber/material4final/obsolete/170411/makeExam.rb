@@ -143,7 +143,7 @@ class PlainFormatter
   end
   def prologue
     puts <<-END_OF_STRING
-FINAL EXAM: CS3342b Tuesday, 25 April 2017, 2pm, Room FEB GYM
+FINAL EXAM: Tuesday, 25 April 2017, 2pm, Room 3342b
 
 NAME AS APPEARS ON STUDENT ID:
 
@@ -211,7 +211,7 @@ class LatexFormatter
     puts <<-END_OF_STRING
 \\documentclass{exam}
 \\begin{document}
-FINAL EXAM: CS3342b Tuesday, 25 April 2017, 2pm, Room FEB GYM\\newline
+FINAL EXAM: Tuesday, 25 April 2017, 2pm, Room 3342b\\newline
 \\newline
 \\newline
 \\newline
@@ -244,9 +244,7 @@ REMINDERS (from course outline):
   def dump_both(item, filter, count)
       question = "\\item " + item.lquestion
       puts question
-      puts "\\begin{itemize}"
       dump_answer item, filter, count
-      puts "\\end{itemize}"
   end
   def dump_question(item, filter, count)
       question = "\\item " + item.lquestion
@@ -257,9 +255,9 @@ REMINDERS (from course outline):
     if item.lanswer.instance_of? String then
       dump_answer_string item.lanswer, filter, count      
     elsif item.answer.instance_of? Array then
-     puts "\\item \\begin{itemize}" if filter != :both
+     puts "\\item \\begin{itemize}"
      item.lanswer.each { |answer| dump_answer_string answer, filter, count }
-     puts "\\end{itemize}" if filter != :both
+     puts "\\end{itemize}"
     else 
       puts "UNKNOWN ANSWER FORMAT"
     end
@@ -270,7 +268,7 @@ REMINDERS (from course outline):
     else
       answer_prefix = "\\item "
     end
-    puts answer_prefix + answer
+      puts answer_prefix + answer
   end
   def dump_configuration(config, items, possible_exam)
     puts "\\begin{verbatim}"
