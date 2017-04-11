@@ -49,18 +49,18 @@ class ExamDatabase
     @database = JSON.parse file_contents
     @items = extract @database
   end
-  def dump(formatter)
-    dump_array @items, formatter
+  def dump(width)
+    dump_array @items, width
   end
   private def extract(database)
     items = @database["questions"].compact
     @items = items.map { | item | Item.new(item) }
   end
-  def dump_array(array, formatter, filter=:both)
+  def dump_array(array, width, filter=:both)
     count = 0
     array.each do |item| 
                   count = count + 1
-                  item.dump count, formatter, filter
+                  item.dump count, width, filter
                end
   end
 end
@@ -113,45 +113,23 @@ class Item
     @answer = item_parts["answer"]
     @source = item_parts["source"]
   end
-  def dump(count, formatter, filter)
-    formatter.skip_line
+  def dump(count, width, filter)
+    puts ""
     if filter === :both then
-      formatter.dump_both @question, @answer, filter, count
+      question = ("QUESTION " + count.to_s + ": " + @question).multiline(width)
+      question.each { | line | puts line }
+      dump_answer @answer
     elsif filter == :question then 
-      formatter.dump_question @question, filter, count
+      question = ("QUESTION " + count.to_s + ": " + @question).multiline(width)
+      question.each { | line | puts line }
+      puts "ANSWER="
     elsif filter == :answer then
-      formatter.dump_answer @answer, filter, count
+      dump_answer @answer, filter, count
     else 
       puts "Unknown filter: " + filter.to_s
     end          
   end
-end
-
-class PlainFormatter
-  def initialize(width)
-    @width = width
-  end
-  def prologue
-  end
-  def epilogue
-  end
-  def page_break
-    puts "\f"
-  end
-  def skip_line
-    puts ""
-  end
-  def dump_both(question, answer, filter, count)
-      question = ("QUESTION " + count.to_s + ": " + question).multiline(@width)
-      question.each { | line | puts line }
-      dump_answer answer, filter, count
-  end
-  def dump_question(question, filter, count)
-      question = ("QUESTION " + count.to_s + ": " + question).multiline(@width)
-      question.each { | line | puts line }
-      puts "ANSWER="
-  end
-  def dump_answer(answer, filter, count)
+  private def dump_answer(answer, filter=:both, count=0)
     if filter === :answer then
       answer_prefix = "ANSWER " + count.to_s + "= "
     else
@@ -165,18 +143,12 @@ class PlainFormatter
       puts "UNKNOWN ANSWER FORMAT"
     end
   end
-  def dump_configuration(config, items, possible_exam)
-    config.dump
-    puts Chapters.new(items).chapters.sort.to_s
-    puts Chapters.new(possible_exam).chapters.sort.to_s
-    puts "---------------"
-  end
 end
 
 class ExamConfig
-  attr_reader :exam_database_file, :exam_format, :dump_database, 
+  attr_reader :exam_database_file, :exam_format, :dump_database, :line_width,
               :question_count, :create_exam, :answer_key, :sample_prng, 
-              :shuffle_prng, :exam_formatter
+              :shuffle_prng, :sample_seed, :shuffle_seed
   def initialize(arg_list)
     if arg_list.any? { |value| /^database=/ =~ value } then
       database_arg = arg_list.find { |value| /^database=/ =~ value }
@@ -222,10 +194,8 @@ class ExamConfig
     end
     if arg_list.include?("latex") then
       @exam_format = "latex"
-      @exam_formatter = LatexFormatter.new
     else
       @exam_format = "plain"
-      @exam_formatter = PlainFormatter.new @line_width
     end
     if arg_list.include?("dump_database") then
       @dump_database = true
@@ -294,22 +264,19 @@ end
 config = ExamConfig.new ARGV
 exam_database = ExamDatabase.new config.exam_database_file
 if config.dump_database then
-  config.exam_formatter.prologue
-  exam_database.dump config.exam_formatter
-  config.exam_formatter.epilogue
+  exam_database.dump config.line_width
 end
 if config.create_exam
-  config.exam_formatter.prologue
   possible_exam = build_exam exam_database.items, config
-  exam_database.dump_array possible_exam, config.exam_formatter
-  config.exam_formatter.epilogue
+  exam_database.dump_array possible_exam, config.line_width
 end
 if config.answer_key
-  config.exam_formatter.prologue
   possible_exam = build_exam exam_database.items, config
-  exam_database.dump_array possible_exam, config.exam_formatter, :question
-  config.exam_formatter.page_break
-  config.exam_formatter.dump_configuration config, exam_database.items, possible_exam
-  exam_database.dump_array possible_exam, config.exam_formatter, :answer
-  config.exam_formatter.epilogue
+  exam_database.dump_array possible_exam, config.line_width, :question
+  puts "\f"
+  config.dump
+  puts Chapters.new(exam_database.items).chapters.sort.to_s
+  puts Chapters.new(possible_exam).chapters.sort.to_s
+  puts "---------------"
+  exam_database.dump_array possible_exam, config.line_width, :answer
 end
