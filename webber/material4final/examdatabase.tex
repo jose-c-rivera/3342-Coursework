@@ -178,7 +178,7 @@ REMINDERS (from course outline):
 \begin{itemize}
 \item pattern matching
 \end{itemize}
-\item In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with $|$ x > 1 = x * factorial ( x - a).  This second style is called ANSWER.
+\item In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with $|$ x $>$ 1 = x * factorial ( x - a).  This second style is called ANSWER.
 \begin{itemize}
 \item using guards
 \end{itemize}
@@ -273,7 +273,7 @@ REMINDERS (from course outline):
 \begin{itemize}
 \item regular expressions
 \end{itemize}
-\item The specifications of how to group characters into meaningful basic units of a programming language are generlly implemented in code that has the abstract form of ANSWER.
+\item The specifications of how to group characters into meaningful basic units of a programming language are generally implemented in code that has the abstract form of ANSWER.
 \begin{itemize}
 \item a finite automata
 \item a finite state machine
@@ -392,19 +392,19 @@ REMINDERS (from course outline):
 \end{itemize}
 \item In the context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow B$, $A \rightarrow a$, $B \rightarrow b$, and $B \rightarrow$  the value of FIRST(A) is ANSWER.
 \begin{itemize}
-\item ${a,b}$
+\item $\{a,b\}$
 \end{itemize}
 \item In the context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow a$, $B \rightarrow b$, $B \rightarrow$  the value of FIRST(A) is ANSWER.
 \begin{itemize}
-\item ${a,b}$
+\item $\{a,b\}$
 \end{itemize}
 \item In the context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow B$, $A \rightarrow a$, $B \rightarrow b$, and $B \rightarrow$  the value of FOLLOW(A) is ANSWER.
 \begin{itemize}
-\item ${a,b}$
+\item $\{a,b\}$
 \end{itemize}
 \item In the context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow a$, $B \rightarrow b$, $B \rightarrow$  the value of FOLLOW(A) is ANSWER.
 \begin{itemize}
-\item ${b}$
+\item $\{b\}$
 \end{itemize}
 \item The context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow a$, $B \rightarrow b$, $B \rightarrow$  is not LL(1) specifically because ANSWER.
 \begin{itemize}
@@ -643,6 +643,7 @@ REMINDERS (from course outline):
 \item The loop and recur constructs are in Clojure to guide ANSWER.
 \begin{itemize}
 \item tail recursion optimization
+\item tail recursion elimination
 \end{itemize}
 \item In Clojure, the value of (repeat 1) is ANSWER.
 \begin{itemize}
@@ -722,6 +723,7 @@ REMINDERS (from course outline):
 \item When a function is invoked, if the language passes a copy of the value of each parameter to the code that performs the function, this is called ANSWER.
 \begin{itemize}
 \item call-by-value
+\item pass-by-value
 \end{itemize}
 \item If the system stack is used for a call stack, then it becomes important for the caller to update the top of the stack before copying items into it.  The reason is because we are worried about the top of the stack being changed by ANSWER after we have copied in information but before we updated the stack top.
 \begin{itemize}
@@ -734,6 +736,7 @@ REMINDERS (from course outline):
 \item Another method of parameter passing, whose technical name is ANSWER, is implemented by passing the address of the variable (or whatever the given parameter is).  Assigning to such a parameter would then change the value stored at the address.
 \begin{itemize}
 \item call-by-reference
+\item pass-by-reference
 \end{itemize}
 \item In C, when you pass a function as a parameter to another function, it is implemented as passing ANSWER.
 \begin{itemize}

@@ -1,0 +1,232 @@
+\documentclass{exam}
+\begin{document}
+FINAL EXAM: CS3342b Tuesday, 25 April 2017, 2pm, Room FEB GYM\newline
+\newline
+\newline
+\newline
+NAME AS APPEARS ON STUDENT ID:\newline
+\newline
+STUDENT ID NUMBER:\newline
+\newline
+GAUL/CONFLUENCE USER NAME:\newline
+\newline
+REMINDERS (from course outline):
+\begin{enumerate}
+\item The final exam will be closed book, closed notes, with no electronic devices allowed, with particular reference to any electronic devices that are capable of communication and/or storing information.
+\end{enumerate}
+\newpage
+\begin{enumerate}
+\item In Ruby, the evaluation of arguments to a message are handled by the object sending the message.  In Haskell, the runtime environment decides when and how much to evaluate an argument to a function.  In Io, the evaluation of the arguments to a message is made by ANSWER.
+\begin{itemize}
+\item the reciever of the message
+\end{itemize}
+\item In Clojure, the value of (repeat 1) is ANSWER.
+\begin{itemize}
+\item an infinite sequence of 1s
+\item a lazy infinite sequence of 1s
+\end{itemize}
+\item Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('if true then z := 1 else z := 2', vtable, ftable), newlabel() be invoked ANSWER times.
+\begin{itemize}
+\item 3
+\end{itemize}
+\item In the ICD textbook's example interpreter for evaluating expressions, in the row labelled let id = Exp1 in Exp2, we have the code: v1 = EvalExp(Exp1, vtable, ftable); vtableP = bind(vtable, getname(id), v1), EvalExp(Exp2, vtableP, ftable).  The bind function changes vtable into vtableP by ANSWER.
+\begin{itemize}
+\item inserting the association of getname(id) with the value v1 into the table
+\item inserting the binding of getname(id) with the value v1 into the table
+\end{itemize}
+\item In Haskell, instead of writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would write ANSWER.
+\begin{itemize}
+\item second = head . tail
+\end{itemize}
+\item In Ruby, the mixin is used to solve the object-oriented programming problem of ANSWER.
+\begin{itemize}
+\item multiple inheritance
+\end{itemize}
+\item In Prolog, the expression hi(X, 4) = hi(3, X) causes X to have the value ANSWER.
+\begin{itemize}
+\item X will not be bound and the expression will fail
+\item X will not be bound
+\end{itemize}
+\item When a function is invoked, if the language passes a copy of the value of each parameter to the code that performs the function, this is called ANSWER.
+\begin{itemize}
+\item call-by-value
+\item pass-by-value
+\end{itemize}
+\item In Prolog, the most natural way to express the rule that `I am an ancestor of you if I am a parent of an ancestor of you' is ANSWER.
+\begin{itemize}
+\item ancestor(I, You) :- parent(I, Ancestor), ancestor(Ancestor, You). 
+\end{itemize}
+\item Matz, the creator of Ruby, thinks that it is less important to optimize the execution (efficiency) of a programming language and more important to optimize the efficiency of ANSWER.
+\begin{itemize}
+\item the programmers
+\end{itemize}
+\item In the ICD textbook's example interpreter for evaluating expressions, in the row labelled id, we have the code: v = lookup(vtable, getname(id)) ; if v = unbound then error() else v.  It says getname(id) instead of id, because ANSWER.
+\begin{itemize}
+\item id indicates a token with a type and value field
+\end{itemize}
+\item In Ruby, by convention, the ? in the method me? is used to indicate that me is ANSWER.
+\begin{itemize}
+\item boolean
+\end{itemize}
+\item In Ruby, the @ is used to indicate that the variable @me is ANSWER.
+\begin{itemize}
+\item an instance variable
+\end{itemize}
+\item In Haskell's do notation for working with monads, assignment uses the ANSWER operator.
+\begin{itemize}
+\item $\leftarrow$
+\end{itemize}
+\item When the structure of the syntax tree is used to determine which object corresponds to a name, this is called ANSWER.
+\begin{itemize}
+\item static scoping
+\item lexical scoping
+\end{itemize}
+\item In the context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow B$, $A \rightarrow a$, $B \rightarrow b$, and $B \rightarrow$  the value of Nullable(A) is ANSWER.
+\begin{itemize}
+\item true
+\end{itemize}
+\item The technical term for the compiler design methodology where the translation closely follows the syntax of the language is ANSWER.
+\begin{itemize}
+\item syntax-directed translation
+\end{itemize}
+\item Type checking done during program execution is called ANSWER.
+\begin{itemize}
+\item dynamic typing
+\end{itemize}
+\item Another method of parameter passing, whose technical name is ANSWER, is implemented by passing the address of the variable (or whatever the given parameter is).  Assigning to such a parameter would then change the value stored at the address.
+\begin{itemize}
+\item call-by-reference
+\item pass-by-reference
+\end{itemize}
+\item In the context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow B$, $A \rightarrow a$, $B \rightarrow b$, and $B \rightarrow$  the value of FIRST(A) is ANSWER.
+\begin{itemize}
+\item $\{a,b\}$
+\end{itemize}
+\item ANSWER is the data structure used in language translation to track the binding of variables and functions to their type.
+\begin{itemize}
+\item A symbol table
+\end{itemize}
+\item The loop and recur constructs are in Clojure to guide ANSWER.
+\begin{itemize}
+\item tail recursion optimization
+\item tail recursion elimination
+\end{itemize}
+\item In Haskell, if we want to define a local named function inside a function definition, we use the keyword ANSWER.
+\begin{itemize}
+\item where
+\end{itemize}
+\item In Scala, the type that every type is a subtype of is called ANSWER.
+\begin{itemize}
+\item Any
+\end{itemize}
+\item The central idea of context-free grammars is to define a language by productions.  These productions say that a nonterminal symbol can be replaced by ANSWER.
+\begin{itemize}
+\item a sequence of terminals and nonterminals
+\item a sequence of symbols
+\end{itemize}
+\item In Ruby, normally, when you try to add a String to a Fixnum, you get an error message saying that a String can't be coerced to a Fixnum.  This is because Ruby is ANSWER typed.
+\begin{itemize}
+\item strongly
+\end{itemize}
+\item In the Erlang community, ANSWER code refers to replacing pieces of your application without stopping your application.
+\begin{itemize}
+\item hot-swapping
+\end{itemize}
+\item In Erlang, you can link two processes together.  Then when one dies, it sends ANSWER to its twin.
+\begin{itemize}
+\item an exit signal
+\end{itemize}
+\item In Haskell, instead of writing something like if x == 0 then 1 else fact ( x - 1 ) * x, you can write a series of lines starting with $|$ x $>$ 1 = x * factorial ( x - a).  This second style is called ANSWER.
+\begin{itemize}
+\item using guards
+\end{itemize}
+\item In most languages, a function definition like f a b = a : (f (a + b) b) would result in an infinite recursion.  However, in Haskell we can partially evaluate functions like this because Haskell is based on ANSWER.
+\begin{itemize}
+\item lazy evaluation
+\end{itemize}
+\item One of the three most significant parts of a monad is called ANSWER, which wraps up a function and puts it in the monad's container.
+\begin{itemize}
+\item return
+\end{itemize}
+\item The way Haskell handles functions with more than one parameter is called ANSWER.
+\begin{itemize}
+\item currying
+\end{itemize}
+\item Three concepts related to concurrency were discussed with regards to the language Io.  ANSWER was presented as a general mechanism for sending a message to an object that would cause that object to respond to the message as a separate process running asynchronously.
+\begin{itemize}
+\item Actors
+\end{itemize}
+\item Io is known for taking ANSWER -based approach to object-oriented programming.
+\begin{itemize}
+\item a prototype
+\end{itemize}
+\item In the Ruby community, the acronym DSL is an abbreviation for ANSWER.
+\begin{itemize}
+\item domain specific language
+\end{itemize}
+\item ANSWER typing is when the language implementation ensures that the arguments of an operation are of the type the operation is defined for.
+\begin{itemize}
+\item Strong
+\end{itemize}
+\item One approach to speeding up an interpreter is to translate pieces of the code being interpreted directly into machine code during program execution, this is called ANSWER.
+\begin{itemize}
+\item just-in-time compilation
+\end{itemize}
+\item In the chapter on Scala, we get the following interesting quote: ANSWER is the most important thing you can do to improve code design for concurrency.
+\begin{itemize}
+\item Immutability
+\end{itemize}
+\item Since a compiler may have to look up what object is associated with a name many times, it is typical to use ANSWER to avoid linear search times.
+\begin{itemize}
+\item hash tables
+\end{itemize}
+\item The context-free grammar $A \rightarrow B A$ , $B \rightarrow A B$, $A \rightarrow a$, $B \rightarrow b$, $B \rightarrow$  is not LL(1) specifically because ANSWER.
+\begin{itemize}
+\item FIRST(BA) and FIRST(a) both include a, so we do not know which A rule to use
+\end{itemize}
+\item The specifications of how to group characters into meaningful basic units of a programming language are generally implemented in code that has the abstract form of ANSWER.
+\begin{itemize}
+\item a finite automata
+\item a finite state machine
+\end{itemize}
+\item Since Haskell doesn't have traditional error handling, by convention, people use the ANSWER monad to distinguish a valid return from an error return.
+\begin{itemize}
+\item Maybe
+\end{itemize}
+\item In Io, the basic method for creating a new object is ANSWER.
+\begin{itemize}
+\item clone
+\end{itemize}
+\item Each named object will have ANSWER, where the name is defined as a synonym for the object.
+\begin{itemize}
+\item a declaration
+\end{itemize}
+\item Another design goal for Scala was to have its programs easily interoperate with those written in ANSWER.
+\begin{itemize}
+\item Java
+\end{itemize}
+\item In automatically generating the code that reads characters and outputs the part of a programming language that is analogous to its words, we start with a specification and then traditionally convert it into code in two stages.  The main problem that can arise in moving from the first stage to the second stage is ANSWER.
+\begin{itemize}
+\item an exponential explosion in the number of states needed
+\end{itemize}
+\item ANSWER data structures have the property that no operation on the structure will destroy or modify it.
+\begin{itemize}
+\item persistent
+\item functional
+\item immutable
+\end{itemize}
+\item Using the straightfoward expression translation scheme in the textbook, if I were to TransExp('3 * x + 1', vtable, ftable), newvar() will be invoked ANSWER times.
+\begin{itemize}
+\item 5
+\end{itemize}
+\item Unlike most Lisp systems, Clojure doesn't use its own custom virtual machine.  It was originally designed to compile to code that would run on the ANSWER.
+\begin{itemize}
+\item JVM
+\item Java Virtual Machine
+\end{itemize}
+\item Scala uses few type declarations because its compiler does ANSWER.
+\begin{itemize}
+\item type inferencing
+\end{itemize}
+\end{enumerate}
+\end{document}

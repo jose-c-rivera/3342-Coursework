@@ -1,0 +1,18 @@
+#!/bin/csh -f
+echo var examdatabase = | cat - examdatabase.json > examdatabase.js
+# plain text and latex dumps of exam database
+ruby makeExam.rb plain dump_database > examdatabase.plain
+ruby makeExam.rb latex dump_database > examdatabase.tex
+pdflatex examdatabase.tex
+# plain text and latex dumps of 173 question exam (whole database) answer_key format
+ruby makeExam.rb plain sample_seed=222 shuffle_seed=2345 answer_key question_count=173 > examdatabaseAK.plain
+ruby makeExam.rb latex sample_seed=222 shuffle_seed=2345 answer_key question_count=173 > examdatabaseAK.tex
+pdflatex examdatabaseAK.tex
+# plain text and latex dumps of a sample 50 question exam, answer_key format
+ruby makeExam.rb plain sample_seed=2322 shuffle_seed=245 answer_key question_count=50 > examdatabaseS1.plain
+ruby makeExam.rb latex sample_seed=2322 shuffle_seed=245 answer_key question_count=50 > examdatabaseS1.tex
+pdflatex examdatabaseS1.tex
+# plain text and latex dumps of a sample 50 question exam, create_exam format
+ruby makeExam.rb plain sample_seed=2322 shuffle_seed=245 create_exam question_count=50 > examdatabaseS1CE.plain
+ruby makeExam.rb latex sample_seed=2322 shuffle_seed=245 create_exam question_count=50 > examdatabaseS1CE.tex
+pdflatex examdatabaseS1CE.tex

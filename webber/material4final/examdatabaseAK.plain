@@ -456,8 +456,8 @@ popularity of Ruby was a web framework called ANSWER.
 ANSWER=
 
 QUESTION 102: The specifications of how to group characters into
-meaningful basic units of a programming language are generlly implemented
-in code that has the abstract form of ANSWER.
+meaningful basic units of a programming language are generally
+implemented in code that has the abstract form of ANSWER.
 ANSWER=
 
 QUESTION 103: Many syntax features of Erlang, such as ending statements
@@ -841,6 +841,7 @@ ANSWER 19= <-
 ANSWER 20= metaprogramming
 
 ANSWER 21= tail recursion optimization
+ANSWER 21= tail recursion elimination
 
 ANSWER 22= [6, 8, 10]
 
@@ -920,6 +921,7 @@ ANSWER 55= XML
 ANSWER 56= Immutability
 
 ANSWER 57= call-by-reference
+ANSWER 57= pass-by-reference
 
 ANSWER 58= ancestor(I, You) :- parent(I, You).
 
@@ -1116,6 +1118,7 @@ ANSWER 143= send a message to an actor
 ANSWER 144= multiple inheritance
 
 ANSWER 145= call-by-value
+ANSWER 145= pass-by-value
 
 ANSWER 146= do end
 

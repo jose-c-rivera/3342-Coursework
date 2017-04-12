@@ -294,8 +294,8 @@ meaningful units are traditionally written as ANSWER.
 ANSWER= regular expressions
 
 QUESTION 64: The specifications of how to group characters into
-meaningful basic units of a programming language are generlly implemented
-in code that has the abstract form of ANSWER.
+meaningful basic units of a programming language are generally
+implemented in code that has the abstract form of ANSWER.
 ANSWER= a finite automata
 ANSWER= a finite state machine
 
@@ -704,6 +704,7 @@ ANSWER= functional
 QUESTION 150: The loop and recur constructs are in Clojure to guide
 ANSWER.
 ANSWER= tail recursion optimization
+ANSWER= tail recursion elimination
 
 QUESTION 151: In Clojure, the value of (repeat 1) is ANSWER.
 ANSWER= an infinite sequence of 1s
@@ -791,6 +792,7 @@ QUESTION 169: When a function is invoked, if the language passes a copy
 of the value of each parameter to the code that performs the function,
 this is called ANSWER.
 ANSWER= call-by-value
+ANSWER= pass-by-value
 
 QUESTION 170: If the system stack is used for a call stack, then it
 becomes important for the caller to update the top of the stack before
@@ -808,6 +810,7 @@ is ANSWER, is implemented by passing the address of the variable (or
 whatever the given parameter is). Assigning to such a parameter would
 then change the value stored at the address.
 ANSWER= call-by-reference
+ANSWER= pass-by-reference
 
 QUESTION 173: In C, when you pass a function as a parameter to another
 function, it is implemented as passing ANSWER.

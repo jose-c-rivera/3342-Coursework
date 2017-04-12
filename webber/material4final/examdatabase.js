@@ -1,3 +1,4 @@
+var examdatabase =
 {
      "questiontemplate": {
         "question": "What is the answer?",
