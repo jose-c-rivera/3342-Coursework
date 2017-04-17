@@ -37,7 +37,7 @@ REMINDERS:
 \item inserting the association of getname(id) with the value v1 into the table
 \item inserting the binding of getname(id) with the value v1 into the table
 \end{itemize}
-\item In Haskell, instead of writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would write ANSWER.
+\item In Haskell, instead of defining second by writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would define second by ANSWER.
 \begin{itemize}
 \item second = head . tail
 \end{itemize}
@@ -192,7 +192,7 @@ REMINDERS:
 \item a finite automata
 \item a finite state machine
 \end{itemize}
-\item Since Haskell doesn't have traditional error handling, by convention, people use the ANSWER monad to distinguish a valid return from an error return.
+\item Since Haskell doesn't have traditional error handling mechanisms, by convention, people use the ANSWER monad to distinguish a valid return from an error return.
 \begin{itemize}
 \item Maybe
 \end{itemize}

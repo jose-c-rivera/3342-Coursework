@@ -50,9 +50,10 @@ into vtableP by ANSWER.
 ANSWER= inserting the association of getname(id) with the value v1 into the table
 ANSWER= inserting the binding of getname(id) with the value v1 into the table
 
-QUESTION 5: In Haskell, instead of writing something like second x =
-head( tail( x ) ), you can write this without introducing the parameter x
-by using function composition. Doing that, you would write ANSWER.
+QUESTION 5: In Haskell, instead of defining second by writing something
+like second x = head( tail( x ) ), you can write this without introducing
+the parameter x by using function composition. Doing that, you would
+define second by ANSWER.
 ANSWER= second = head . tail
 
 QUESTION 6: In Ruby, the mixin is used to solve the object-oriented
@@ -224,9 +225,9 @@ implemented in code that has the abstract form of ANSWER.
 ANSWER= a finite automata
 ANSWER= a finite state machine
 
-QUESTION 42: Since Haskell doesn't have traditional error handling, by
-convention, people use the ANSWER monad to distinguish a valid return
-from an error return.
+QUESTION 42: Since Haskell doesn't have traditional error handling
+mechanisms, by convention, people use the ANSWER monad to distinguish a
+valid return from an error return.
 ANSWER= Maybe
 
 QUESTION 43: In Io, the basic method for creating a new object is ANSWER.

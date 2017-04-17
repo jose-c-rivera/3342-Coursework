@@ -94,7 +94,7 @@
         "source": "SLSW2"
      },
      {
-        "question": "A major claim in object-oriented design philosophy is that you should code to ANSWER rather than code to implementation.",
+        "question": "A major claim in object-oriented design philosophy is that you should code to ANSWER rather than code to the implementation.",
         "answer": "interface",
         "note": "this is discussed in more detail elsewhere http://www.artima.com/lejava/articles/designprinciplesP.html",
         "source": "SLSW2"
@@ -263,7 +263,7 @@
         "source": "SLSW8"
      },
      {
-        "question": "In Haskell, instead of writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would write ANSWER.",
+        "question": "In Haskell, instead of defining second by writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would define second by ANSWER.",
         "answer": "second = head . tail",
         "note": "optional note",
         "source": "SLSW8"
@@ -388,7 +388,7 @@
         "source": "SLSW8"
      },
      {
-        "question": "Since Haskell doesn't have traditional error handling, by convention, people use the ANSWER monad to distinguish a valid return from an error return.",
+        "question": "Since Haskell doesn't have traditional error handling mechanisms, by convention, people use the ANSWER monad to distinguish a valid return from an error return.",
         "answer": "Maybe",
         "note": "this is similar to NaN's usage in IEEE standard floating point arithmetic",
         "source": "SLSW8"
@@ -567,8 +567,8 @@
      {
         "question": "If I wanted to fix the grammar E -> E + E and E -> id, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.",
         "lquestion": "If I wanted to fix the grammar $E \\rightarrow E + E$ and $E \\rightarrow id$, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.",
-        "answer": "E -> E + F and E -> F and F -> id",
-        "lanswer": "$E \\rightarrow E + F$ and $E \\rightarrow F$ and $F \\rightarrow id$",
+        "answer": ["E -> E + F and E -> F and F -> id", "E -> E + F and E -> id and F -> id"],
+        "lanswer": ["$E \\rightarrow E + F$ and $E \\rightarrow F$ and $F \\rightarrow id$", "$E \\rightarrow E + F$ and $E \\rightarrow id$ and $F \\rightarrow id$"],
         "note": "the actual name of the nonterminals doesn't matter as long as they have this pattern of usage",
         "source": "ICD2"
      },
@@ -771,7 +771,7 @@
         "source": "ICD3"
      },
      {
-        "question": "ANSWER data structures have the property that there are operations on the structure can destroy or modify it.",
+        "question": "ANSWER data structures have the property that there are operations on the structure that can destroy or modify it.",
         "answer": ["imperative", "destructively updated", "mutable"],
         "note": "optional note",
         "source": "ICD3"
@@ -910,6 +910,7 @@
      },
      {
         "question": "An unusual built-in constant construct in Erlang lets us write <<4:3,1:3>> to represent the value ANSWER.",
+        "lquestion": "An unusual built-in constant construct in Erlang lets us write $<<4:3,1:3>>$ to represent the value ANSWER.",
         "answer": ["!","octal 41", "decimal 33", "hexidecimal 21"],
         "note": "optional note",
         "source": "SLSW6"

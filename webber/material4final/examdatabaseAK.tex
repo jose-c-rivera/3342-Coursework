@@ -137,7 +137,7 @@ ANSWER=
 ANSWER=
 \item In Clojure, ANSWER is a concurrency construct that allows an asynchronous return before computation is complete.\newline
 ANSWER=
-\item A major claim in object-oriented design philosophy is that you should code to ANSWER rather than code to implementation.\newline
+\item A major claim in object-oriented design philosophy is that you should code to ANSWER rather than code to the implementation.\newline
 ANSWER=
 \item In Haskell, if I write (h:t) = $\lbrack$3, 5, 7$\rbrack$, ANSWER is the value of h.\newline
 ANSWER=
@@ -145,7 +145,7 @@ ANSWER=
 ANSWER=
 \item Type checking done during program compilation is called ANSWER.\newline
 ANSWER=
-\item Since Haskell doesn't have traditional error handling, by convention, people use the ANSWER monad to distinguish a valid return from an error return.\newline
+\item Since Haskell doesn't have traditional error handling mechanisms, by convention, people use the ANSWER monad to distinguish a valid return from an error return.\newline
 ANSWER=
 \item In C, when you pass a function as a parameter to another function, it is implemented as passing ANSWER.\newline
 ANSWER=
@@ -171,7 +171,7 @@ ANSWER=
 ANSWER=
 \item One approach to speeding up an interpreter is to translate pieces of the code being interpreted directly into machine code during program execution, this is called ANSWER.\newline
 ANSWER=
-\item In Haskell, instead of writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would write ANSWER.\newline
+\item In Haskell, instead of defining second by writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would define second by ANSWER.\newline
 ANSWER=
 \item If the system stack is used for a call stack, then it becomes important for the caller to update the top of the stack before copying items into it.  The reason is because we are worried about the top of the stack being changed by ANSWER after we have copied in information but before we updated the stack top.\newline
 ANSWER=
@@ -197,7 +197,7 @@ ANSWER=
 ANSWER=
 \item In Clojure, the value of (repeat 1) is ANSWER.\newline
 ANSWER=
-\item ANSWER data structures have the property that there are operations on the structure can destroy or modify it.\newline
+\item ANSWER data structures have the property that there are operations on the structure that can destroy or modify it.\newline
 ANSWER=
 \item In Ruby, the expression Fixnum.class returns ANSWER.\newline
 ANSWER=
@@ -249,7 +249,7 @@ ANSWER=
 ANSWER=
 \item In Haskell, if we want to define a local named function inside a function definition, we use the keyword ANSWER.\newline
 ANSWER=
-\item An unusual built-in constant construct in Erlang lets us write <<4:3,1:3>> to represent the value ANSWER.\newline
+\item An unusual built-in constant construct in Erlang lets us write $<<4:3,1:3>>$ to represent the value ANSWER.\newline
 ANSWER=
 \item In Prolog, the most natural way to express the rule that `I am an ancestor of you if I am a parent of an ancestor of you' is ANSWER.\newline
 ANSWER=
@@ -577,7 +577,10 @@ shuffle_seed= 2345
 \item ancestor(I, You) :- parent(I, Ancestor), ancestor(Ancestor, You). 
 \item 3
 \item threads
+\item \begin{itemize}
 \item $E \rightarrow E + F$ and $E \rightarrow F$ and $F \rightarrow id$
+\item $E \rightarrow E + F$ and $E \rightarrow id$ and $F \rightarrow id$
+\end{itemize}
 \item false
 \item a prototype
 \item functional

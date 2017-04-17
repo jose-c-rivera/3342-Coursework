@@ -1,4 +1,3 @@
-var examdatabase =
 {
      "questiontemplate": {
         "question": "What is the answer?",
@@ -568,8 +567,8 @@ var examdatabase =
      {
         "question": "If I wanted to fix the grammar E -> E + E and E -> id, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.",
         "lquestion": "If I wanted to fix the grammar $E \\rightarrow E + E$ and $E \\rightarrow id$, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.",
-        "answer": ["E -> E + F and E -> F and F -> id", "E -> E + F and E -> id and F -> id"],
-        "lanswer": ["$E \\rightarrow E + F$ and $E \\rightarrow F$ and $F \\rightarrow id$", "$E \\rightarrow E + F$ and $E \\rightarrow id$ and $F \\rightarrow id$"],
+        "answer": "E -> E + F and E -> F and F -> id",
+        "lanswer": "$E \\rightarrow E + F$ and $E \\rightarrow F$ and $F \\rightarrow id$",
         "note": "the actual name of the nonterminals doesn't matter as long as they have this pattern of usage",
         "source": "ICD2"
      },

@@ -77,7 +77,7 @@ REMINDERS:
 \begin{itemize}
 \item duck typing
 \end{itemize}
-\item A major claim in object-oriented design philosophy is that you should code to ANSWER rather than code to implementation.
+\item A major claim in object-oriented design philosophy is that you should code to ANSWER rather than code to the implementation.
 \begin{itemize}
 \item interface
 \end{itemize}
@@ -185,7 +185,7 @@ REMINDERS:
 \begin{itemize}
 \item using guards
 \end{itemize}
-\item In Haskell, instead of writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would write ANSWER.
+\item In Haskell, instead of defining second by writing something like second x = head( tail(  x ) ), you can write this without introducing the parameter x by using function composition.  Doing that, you would define second by ANSWER.
 \begin{itemize}
 \item second = head . tail
 \end{itemize}
@@ -258,7 +258,7 @@ REMINDERS:
 \begin{itemize}
 \item $\leftarrow$
 \end{itemize}
-\item Since Haskell doesn't have traditional error handling, by convention, people use the ANSWER monad to distinguish a valid return from an error return.
+\item Since Haskell doesn't have traditional error handling mechanisms, by convention, people use the ANSWER monad to distinguish a valid return from an error return.
 \begin{itemize}
 \item Maybe
 \end{itemize}
@@ -380,6 +380,7 @@ REMINDERS:
 \item If I wanted to fix the grammar $E \rightarrow E + E$ and $E \rightarrow id$, so that it would only produce one syntax tree, which is left recursive; the new grammar would be ANSWER.
 \begin{itemize}
 \item $E \rightarrow E + F$ and $E \rightarrow F$ and $F \rightarrow id$
+\item $E \rightarrow E + F$ and $E \rightarrow id$ and $F \rightarrow id$
 \end{itemize}
 \item One aspect of the if-then-else-end syntax of Ruby is that it avoids the ANSWER problem.
 \begin{itemize}
@@ -511,7 +512,7 @@ REMINDERS:
 \item functional
 \item immutable
 \end{itemize}
-\item ANSWER data structures have the property that there are operations on the structure can destroy or modify it.
+\item ANSWER data structures have the property that there are operations on the structure that can destroy or modify it.
 \begin{itemize}
 \item imperative
 \item destructively updated
@@ -607,7 +608,7 @@ REMINDERS:
 \begin{itemize}
 \item hot-swapping
 \end{itemize}
-\item An unusual built-in constant construct in Erlang lets us write <<4:3,1:3>> to represent the value ANSWER.
+\item An unusual built-in constant construct in Erlang lets us write $<<4:3,1:3>>$ to represent the value ANSWER.
 \begin{itemize}
 \item !
 \item octal 41

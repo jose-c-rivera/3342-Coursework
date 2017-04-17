@@ -293,7 +293,7 @@ asynchronous return before computation is complete.
 ANSWER=
 
 QUESTION 60: A major claim in object-oriented design philosophy is that
-you should code to ANSWER rather than code to implementation.
+you should code to ANSWER rather than code to the implementation.
 ANSWER=
 
 QUESTION 61: In Haskell, if I write (h:t) = [3, 5, 7], ANSWER is the
@@ -307,9 +307,9 @@ QUESTION 63: Type checking done during program compilation is called
 ANSWER.
 ANSWER=
 
-QUESTION 64: Since Haskell doesn't have traditional error handling, by
-convention, people use the ANSWER monad to distinguish a valid return
-from an error return.
+QUESTION 64: Since Haskell doesn't have traditional error handling
+mechanisms, by convention, people use the ANSWER monad to distinguish a
+valid return from an error return.
 ANSWER=
 
 QUESTION 65: In C, when you pass a function as a parameter to another
@@ -362,9 +362,10 @@ pieces of the code being interpreted directly into machine code during
 program execution, this is called ANSWER.
 ANSWER=
 
-QUESTION 77: In Haskell, instead of writing something like second x =
-head( tail( x ) ), you can write this without introducing the parameter x
-by using function composition. Doing that, you would write ANSWER.
+QUESTION 77: In Haskell, instead of defining second by writing something
+like second x = head( tail( x ) ), you can write this without introducing
+the parameter x by using function composition. Doing that, you would
+define second by ANSWER.
 ANSWER=
 
 QUESTION 78: If the system stack is used for a call stack, then it
@@ -419,7 +420,7 @@ QUESTION 89: In Clojure, the value of (repeat 1) is ANSWER.
 ANSWER=
 
 QUESTION 90: ANSWER data structures have the property that there are
-operations on the structure can destroy or modify it.
+operations on the structure that can destroy or modify it.
 ANSWER=
 
 QUESTION 91: In Ruby, the expression Fixnum.class returns ANSWER.
@@ -1080,6 +1081,7 @@ ANSWER 118= 3
 ANSWER 119= threads
 
 ANSWER 120= E -> E + F and E -> F and F -> id
+ANSWER 120= E -> E + F and E -> id and F -> id
 
 ANSWER 121= false
 
