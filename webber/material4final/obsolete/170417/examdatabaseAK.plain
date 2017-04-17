@@ -6,26 +6,11 @@ STUDENT ID NUMBER:
 
 GAUL/CONFLUENCE USER NAME:
 
-REMINDERS:
-** (from course outline) The final exam will be closed book, 
-   closed notes, with no electronic devices allowed, with particular 
-   reference to any electronic devices that are capable of communication 
-   and/or storing information.
-
-** Write neatly.  If the marker can't read it, it is wrong.
-
-** This exam shouldn't take long to write.  On the other hand, time
-   will pass.  It is a 3 hour exam with 50 questions.  If you complete
-   a question every 3 minutes (or 10 questions every half hour), you
-   will still have a half hour at the end to double check that
-   everything is in order.
-
-** While you are not allowed to open the exam booklet until the
-   proctor says you can, you can fill out the information on the cover
-   page.  You should also get out your student id and make sure your
-   pencils and pens are in order.  If you need to get something out of
-   your jacket or knapsack once the exam has started, raise your hand
-   and wait til a proctor comes to you to oversee the matter.
+REMINDERS (from course outline):
+** The final exam will be closed book, closed notes, with no
+   electronic devices allowed, with particular reference to any
+   electronic devices that are capable of communication and/or storing
+   information.
 
 QUESTION 1: In Scala, the type that every type is a subtype of is called
 ANSWER.
@@ -112,7 +97,7 @@ ANSWER=
 
 QUESTION 18: Using the straightfoward statement translation scheme in the
 textbook, if I were to TransStat('while z < 3 do z := 1 + z', vtable,
-ftable), newvar() will be invoked ANSWER times.
+ftable), newvar() be invoked ANSWER times.
 ANSWER=
 
 QUESTION 19: In Haskell's do notation for working with monads, assignment
@@ -139,7 +124,7 @@ is called ANSWER, which unwraps a function.
 ANSWER=
 
 QUESTION 25: The portion of the call stack associated with a single
-function invocation and execution is called ANSWER.
+function invocation and running is called ANSWER.
 ANSWER=
 
 QUESTION 26: In Ruby, normally, when you try to add a String to a Fixnum,
@@ -541,7 +526,7 @@ ANSWER=
 
 QUESTION 118: Using the straightfoward statement translation scheme in
 the textbook, if I were to TransStat('while true do z := 1 + z', vtable,
-ftable), newlabel() will be invoked ANSWER times.
+ftable), newlabel() be invoked ANSWER times.
 ANSWER=
 
 QUESTION 119: The main concurrency approach used in Ruby is ANSWER.
@@ -728,7 +713,7 @@ ANSWER=
 
 QUESTION 159: Using the straightfoward statement translation scheme in
 the textbook, if I were to TransStat('if true then z := 1 else z := 2',
-vtable, ftable), newlabel() will be invoked ANSWER times.
+vtable, ftable), newlabel() be invoked ANSWER times.
 ANSWER=
 
 QUESTION 160: In Scala, to indicate that a variable is immutable, you

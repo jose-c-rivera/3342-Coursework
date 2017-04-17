@@ -1012,20 +1012,20 @@
         "source": "ICD6"
      },
      {
-        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('if true then z := 1 else z := 2', vtable, ftable), newlabel() be invoked ANSWER times.",
+        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('if true then z := 1 else z := 2', vtable, ftable), newlabel() will be invoked ANSWER times.",
         "answer": "3",
         "note": "optional note",
         "source": "ICD6"
      },
      {
-        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while true do z := 1 + z', vtable, ftable), newlabel() be invoked ANSWER times.",
+        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while true do z := 1 + z', vtable, ftable), newlabel() will be invoked ANSWER times.",
         "answer": "3",
         "note": "optional note",
         "source": "ICD6"
      },
      {
-        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while z < 3 do z := 1 + z', vtable, ftable), newvar() be invoked ANSWER times.",
-        "lquestion": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while z $<$ 3 do z := 1 + z', vtable, ftable), newvar() be invoked ANSWER times.",
+        "question": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while z < 3 do z := 1 + z', vtable, ftable), newvar() will be invoked ANSWER times.",
+        "lquestion": "Using the straightfoward statement translation scheme in the textbook, if I were to TransStat('while z $<$ 3 do z := 1 + z', vtable, ftable), newvar() will be invoked ANSWER times.",
         "answer": "5",
         "note": "optional note",
         "source": "ICD6"
@@ -1085,7 +1085,7 @@
         "source": "ICD9"
      },
      {
-        "question": "The portion of the call stack associated with a single function invocation and running is called ANSWER.",
+        "question": "The portion of the call stack associated with a single function invocation and execution is called ANSWER.",
         "answer": "an activation record",
         "note": "optional note",
         "source": "ICD9"

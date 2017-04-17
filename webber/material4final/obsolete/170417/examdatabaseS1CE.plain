@@ -6,379 +6,249 @@ STUDENT ID NUMBER:
 
 GAUL/CONFLUENCE USER NAME:
 
-REMINDERS:
-** (from course outline) The final exam will be closed book, 
-   closed notes, with no electronic devices allowed, with particular 
-   reference to any electronic devices that are capable of communication 
-   and/or storing information.
-
-** Write neatly.  If the marker can't read it, it is wrong.
-
-** This exam shouldn't take long to write.  On the other hand, time
-   will pass.  It is a 3 hour exam with 50 questions.  If you complete
-   a question every 3 minutes (or 10 questions every half hour), you
-   will still have a half hour at the end to double check that
-   everything is in order.
-
-** While you are not allowed to open the exam booklet until the
-   proctor says you can, you can fill out the information on the cover
-   page.  You should also get out your student id and make sure your
-   pencils and pens are in order.  If you need to get something out of
-   your jacket or knapsack once the exam has started, raise your hand
-   and wait til a proctor comes to you to oversee the matter.
+REMINDERS (from course outline):
+** The final exam will be closed book, closed notes, with no
+   electronic devices allowed, with particular reference to any
+   electronic devices that are capable of communication and/or storing
+   information.
 
 QUESTION 1: In Ruby, the evaluation of arguments to a message are handled
 by the object sending the message. In Haskell, the runtime environment
 decides when and how much to evaluate an argument to a function. In Io,
 the evaluation of the arguments to a message is made by ANSWER.
-ANSWER=
+ANSWER= the reciever of the message
 
 QUESTION 2: In Clojure, the value of (repeat 1) is ANSWER.
-ANSWER=
+ANSWER= an infinite sequence of 1s
+ANSWER= a lazy infinite sequence of 1s
 
 QUESTION 3: Using the straightfoward statement translation scheme in the
 textbook, if I were to TransStat('if true then z := 1 else z := 2',
-vtable, ftable), newlabel() will be invoked ANSWER times.
-ANSWER=
+vtable, ftable), newlabel() be invoked ANSWER times.
+ANSWER= 3
 
 QUESTION 4: In the ICD textbook's example interpreter for evaluating
 expressions, in the row labelled let id = Exp1 in Exp2, we have the code:
 v1 = EvalExp(Exp1, vtable, ftable); vtableP = bind(vtable, getname(id),
 v1), EvalExp(Exp2, vtableP, ftable). The bind function changes vtable
 into vtableP by ANSWER.
-ANSWER=
+ANSWER= inserting the association of getname(id) with the value v1 into the table
+ANSWER= inserting the binding of getname(id) with the value v1 into the table
 
 QUESTION 5: In Haskell, instead of writing something like second x =
 head( tail( x ) ), you can write this without introducing the parameter x
 by using function composition. Doing that, you would write ANSWER.
-ANSWER=
+ANSWER= second = head . tail
 
 QUESTION 6: In Ruby, the mixin is used to solve the object-oriented
 programming problem of ANSWER.
-ANSWER=
+ANSWER= multiple inheritance
 
 QUESTION 7: In Prolog, the expression hi(X, 4) = hi(3, X) causes X to
 have the value ANSWER.
-ANSWER=
+ANSWER= X will not be bound and the expression will fail
+ANSWER= X will not be bound
 
 QUESTION 8: When a function is invoked, if the language passes a copy of
 the value of each parameter to the code that performs the function, this
 is called ANSWER.
-ANSWER=
+ANSWER= call-by-value
+ANSWER= pass-by-value
 
 QUESTION 9: In Prolog, the most natural way to express the rule that `I
 am an ancestor of you if I am a parent of an ancestor of you' is ANSWER.
-ANSWER=
+ANSWER= ancestor(I, You) :- parent(I, Ancestor), ancestor(Ancestor, You). 
 
 QUESTION 10: Matz, the creator of Ruby, thinks that it is less important
 to optimize the execution (efficiency) of a programming language and more
 important to optimize the efficiency of ANSWER.
-ANSWER=
+ANSWER= the programmers
 
 QUESTION 11: In the ICD textbook's example interpreter for evaluating
 expressions, in the row labelled id, we have the code: v = lookup(vtable,
 getname(id)) ; if v = unbound then error() else v. It says getname(id)
 instead of id, because ANSWER.
-ANSWER=
+ANSWER= id indicates a token with a type and value field
 
 QUESTION 12: In Ruby, by convention, the ? in the method me? is used to
 indicate that me is ANSWER.
-ANSWER=
+ANSWER= boolean
 
 QUESTION 13: In Ruby, the @ is used to indicate that the variable @me is
 ANSWER.
-ANSWER=
+ANSWER= an instance variable
 
 QUESTION 14: In Haskell's do notation for working with monads, assignment
 uses the ANSWER operator.
-ANSWER=
+ANSWER= <-
 
 QUESTION 15: When the structure of the syntax tree is used to determine
 which object corresponds to a name, this is called ANSWER.
-ANSWER=
+ANSWER= static scoping
+ANSWER= lexical scoping
 
 QUESTION 16: In the context-free grammar A -> B A , B -> A B, A -> B, A
 -> a, B -> b, and B -> the value of Nullable(A) is ANSWER.
-ANSWER=
+ANSWER= true
 
 QUESTION 17: The technical term for the compiler design methodology where
 the translation closely follows the syntax of the language is ANSWER.
-ANSWER=
+ANSWER= syntax-directed translation
 
 QUESTION 18: Type checking done during program execution is called
 ANSWER.
-ANSWER=
+ANSWER= dynamic typing
 
 QUESTION 19: Another method of parameter passing, whose technical name is
 ANSWER, is implemented by passing the address of the variable (or
 whatever the given parameter is). Assigning to such a parameter would
 then change the value stored at the address.
-ANSWER=
+ANSWER= call-by-reference
+ANSWER= pass-by-reference
 
 QUESTION 20: In the context-free grammar A -> B A , B -> A B, A -> B, A
 -> a, B -> b, and B -> the value of FIRST(A) is ANSWER.
-ANSWER=
+ANSWER= {a,b}
 
 QUESTION 21: ANSWER is the data structure used in language translation to
 track the binding of variables and functions to their type.
-ANSWER=
+ANSWER= A symbol table
 
 QUESTION 22: The loop and recur constructs are in Clojure to guide
 ANSWER.
-ANSWER=
+ANSWER= tail recursion optimization
+ANSWER= tail recursion elimination
 
 QUESTION 23: In Haskell, if we want to define a local named function
 inside a function definition, we use the keyword ANSWER.
-ANSWER=
+ANSWER= where
 
 QUESTION 24: In Scala, the type that every type is a subtype of is called
 ANSWER.
-ANSWER=
+ANSWER= Any
 
 QUESTION 25: The central idea of context-free grammars is to define a
 language by productions. These productions say that a nonterminal symbol
 can be replaced by ANSWER.
-ANSWER=
+ANSWER= a sequence of terminals and nonterminals
+ANSWER= a sequence of symbols
 
 QUESTION 26: In Ruby, normally, when you try to add a String to a Fixnum,
 you get an error message saying that a String can't be coerced to a
 Fixnum. This is because Ruby is ANSWER typed.
-ANSWER=
+ANSWER= strongly
 
 QUESTION 27: In the Erlang community, ANSWER code refers to replacing
 pieces of your application without stopping your application.
-ANSWER=
+ANSWER= hot-swapping
 
 QUESTION 28: In Erlang, you can link two processes together. Then when
 one dies, it sends ANSWER to its twin.
-ANSWER=
+ANSWER= an exit signal
 
 QUESTION 29: In Haskell, instead of writing something like if x == 0 then
 1 else fact ( x - 1 ) * x, you can write a series of lines starting with
 | x > 1 = x * factorial ( x - a). This second style is called ANSWER.
-ANSWER=
+ANSWER= using guards
 
 QUESTION 30: In most languages, a function definition like f a b = a : (f
 (a + b) b) would result in an infinite recursion. However, in Haskell we
 can partially evaluate functions like this because Haskell is based on
 ANSWER.
-ANSWER=
+ANSWER= lazy evaluation
 
 QUESTION 31: One of the three most significant parts of a monad is called
 ANSWER, which wraps up a function and puts it in the monad's container.
-ANSWER=
+ANSWER= return
 
 QUESTION 32: The way Haskell handles functions with more than one
 parameter is called ANSWER.
-ANSWER=
+ANSWER= currying
 
 QUESTION 33: Three concepts related to concurrency were discussed with
 regards to the language Io. ANSWER was presented as a general mechanism
 for sending a message to an object that would cause that object to
 respond to the message as a separate process running asynchronously.
-ANSWER=
+ANSWER= Actors
 
 QUESTION 34: Io is known for taking ANSWER -based approach to
 object-oriented programming.
-ANSWER=
+ANSWER= a prototype
 
 QUESTION 35: In the Ruby community, the acronym DSL is an abbreviation
 for ANSWER.
-ANSWER=
+ANSWER= domain specific language
 
 QUESTION 36: ANSWER typing is when the language implementation ensures
 that the arguments of an operation are of the type the operation is
 defined for.
-ANSWER=
+ANSWER= Strong
 
 QUESTION 37: One approach to speeding up an interpreter is to translate
 pieces of the code being interpreted directly into machine code during
 program execution, this is called ANSWER.
-ANSWER=
+ANSWER= just-in-time compilation
 
 QUESTION 38: In the chapter on Scala, we get the following interesting
 quote: ANSWER is the most important thing you can do to improve code
 design for concurrency.
-ANSWER=
+ANSWER= Immutability
 
 QUESTION 39: Since a compiler may have to look up what object is
 associated with a name many times, it is typical to use ANSWER to avoid
 linear search times.
-ANSWER=
+ANSWER= hash tables
 
 QUESTION 40: The context-free grammar A -> B A , B -> A B, A -> a, B ->
 b, B -> is not LL(1) specifically because ANSWER.
-ANSWER=
+ANSWER= FIRST(BA) and FIRST(a) both include a, so we do not know which A rule to use
 
 QUESTION 41: The specifications of how to group characters into
 meaningful basic units of a programming language are generally
 implemented in code that has the abstract form of ANSWER.
-ANSWER=
+ANSWER= a finite automata
+ANSWER= a finite state machine
 
 QUESTION 42: Since Haskell doesn't have traditional error handling, by
 convention, people use the ANSWER monad to distinguish a valid return
 from an error return.
-ANSWER=
+ANSWER= Maybe
 
 QUESTION 43: In Io, the basic method for creating a new object is ANSWER.
-ANSWER=
+ANSWER= clone
 
 QUESTION 44: Each named object will have ANSWER, where the name is
 defined as a synonym for the object.
-ANSWER=
+ANSWER= a declaration
 
 QUESTION 45: Another design goal for Scala was to have its programs
 easily interoperate with those written in ANSWER.
-ANSWER=
+ANSWER= Java
 
 QUESTION 46: In automatically generating the code that reads characters
 and outputs the part of a programming language that is analogous to its
 words, we start with a specification and then traditionally convert it
 into code in two stages. The main problem that can arise in moving from
 the first stage to the second stage is ANSWER.
-ANSWER=
+ANSWER= an exponential explosion in the number of states needed
 
 QUESTION 47: ANSWER data structures have the property that no operation
 on the structure will destroy or modify it.
-ANSWER=
+ANSWER= persistent
+ANSWER= functional
+ANSWER= immutable
 
 QUESTION 48: Using the straightfoward expression translation scheme in
 the textbook, if I were to TransExp('3 * x + 1', vtable, ftable),
 newvar() will be invoked ANSWER times.
-ANSWER=
+ANSWER= 5
 
 QUESTION 49: Unlike most Lisp systems, Clojure doesn't use its own custom
 virtual machine. It was originally designed to compile to code that would
 run on the ANSWER.
-ANSWER=
+ANSWER= JVM
+ANSWER= Java Virtual Machine
 
 QUESTION 50: Scala uses few type declarations because its compiler does
 ANSWER.
-ANSWER=
-
-exam_database_file= examdatabase.json
-exam_format= plain
-dump_database= false
-line_width= 72
-question_count= 50
-create_exam= false
-answer_key= true
-sample_seed= 2322
-shuffle_seed= 245
-["ICD1", "ICD2", "ICD3", "ICD4", "ICD5", "ICD6", "ICD9", "SLSW2",
-"SLSW3", "SLSW4", "SLSW5", "SLSW6", "SLSW7", "SLSW8"]
-["ICD1", "ICD2", "ICD3", "ICD4", "ICD5", "ICD6", "ICD9", "SLSW2",
-"SLSW3", "SLSW4", "SLSW5", "SLSW6", "SLSW7", "SLSW8"]
----------------
-
-ANSWER 1= the reciever of the message
-
-ANSWER 2= an infinite sequence of 1s
-ANSWER 2= a lazy infinite sequence of 1s
-
-ANSWER 3= 3
-
-ANSWER 4= inserting the association of getname(id) with the value v1 into the table
-ANSWER 4= inserting the binding of getname(id) with the value v1 into the table
-
-ANSWER 5= second = head . tail
-
-ANSWER 6= multiple inheritance
-
-ANSWER 7= X will not be bound and the expression will fail
-ANSWER 7= X will not be bound
-
-ANSWER 8= call-by-value
-ANSWER 8= pass-by-value
-
-ANSWER 9= ancestor(I, You) :- parent(I, Ancestor), ancestor(Ancestor, You). 
-
-ANSWER 10= the programmers
-
-ANSWER 11= id indicates a token with a type and value field
-
-ANSWER 12= boolean
-
-ANSWER 13= an instance variable
-
-ANSWER 14= <-
-
-ANSWER 15= static scoping
-ANSWER 15= lexical scoping
-
-ANSWER 16= true
-
-ANSWER 17= syntax-directed translation
-
-ANSWER 18= dynamic typing
-
-ANSWER 19= call-by-reference
-ANSWER 19= pass-by-reference
-
-ANSWER 20= {a,b}
-
-ANSWER 21= A symbol table
-
-ANSWER 22= tail recursion optimization
-ANSWER 22= tail recursion elimination
-
-ANSWER 23= where
-
-ANSWER 24= Any
-
-ANSWER 25= a sequence of terminals and nonterminals
-ANSWER 25= a sequence of symbols
-
-ANSWER 26= strongly
-
-ANSWER 27= hot-swapping
-
-ANSWER 28= an exit signal
-
-ANSWER 29= using guards
-
-ANSWER 30= lazy evaluation
-
-ANSWER 31= return
-
-ANSWER 32= currying
-
-ANSWER 33= Actors
-
-ANSWER 34= a prototype
-
-ANSWER 35= domain specific language
-
-ANSWER 36= Strong
-
-ANSWER 37= just-in-time compilation
-
-ANSWER 38= Immutability
-
-ANSWER 39= hash tables
-
-ANSWER 40= FIRST(BA) and FIRST(a) both include a, so we do not know which A rule to use
-
-ANSWER 41= a finite automata
-ANSWER 41= a finite state machine
-
-ANSWER 42= Maybe
-
-ANSWER 43= clone
-
-ANSWER 44= a declaration
-
-ANSWER 45= Java
-
-ANSWER 46= an exponential explosion in the number of states needed
-
-ANSWER 47= persistent
-ANSWER 47= functional
-ANSWER 47= immutable
-
-ANSWER 48= 5
-
-ANSWER 49= JVM
-ANSWER 49= Java Virtual Machine
-
-ANSWER 50= type inferencing
+ANSWER= type inferencing

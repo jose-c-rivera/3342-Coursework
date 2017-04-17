@@ -151,26 +151,11 @@ STUDENT ID NUMBER:
 
 GAUL/CONFLUENCE USER NAME:
 
-REMINDERS:
-** (from course outline) The final exam will be closed book, 
-   closed notes, with no electronic devices allowed, with particular 
-   reference to any electronic devices that are capable of communication 
-   and/or storing information.
-
-** Write neatly.  If the marker can't read it, it is wrong.
-
-** This exam shouldn't take long to write.  On the other hand, time
-   will pass.  It is a 3 hour exam with 50 questions.  If you complete
-   a question every 3 minutes (or 10 questions every half hour), you
-   will still have a half hour at the end to double check that
-   everything is in order.
-
-** While you are not allowed to open the exam booklet until the
-   proctor says you can, you can fill out the information on the cover
-   page.  You should also get out your student id and make sure your
-   pencils and pens are in order.  If you need to get something out of
-   your jacket or knapsack once the exam has started, raise your hand
-   and wait til a proctor comes to you to oversee the matter.
+REMINDERS (from course outline):
+** The final exam will be closed book, closed notes, with no
+   electronic devices allowed, with particular reference to any
+   electronic devices that are capable of communication and/or storing
+   information.
             END_OF_STRING
   end
   def epilogue
@@ -236,12 +221,9 @@ STUDENT ID NUMBER:\\newline
 \\newline
 GAUL/CONFLUENCE USER NAME:\\newline
 \\newline
-REMINDERS:
+REMINDERS (from course outline):
 \\begin{enumerate}
-\\item (from course outline) The final exam will be closed book, closed notes, with no electronic devices allowed, with particular reference to any electronic devices that are capable of communication and/or storing information.
-\\item Write neatly.  If the marker can't read it, it is wrong.
-\\item This exam shouldn't take long to write.  On the other hand, time will pass.  It is a 3 hour exam with 50 questions.  If you complete a question every 3 minutes (or 10 questions every half hour), you will still have a half hour at the end to double check that everything is in order.
-\\item While you are not allowed to open the exam booklet until the proctor says you can, you can fill out the information on the cover page.  You should also get out your student id and make sure your pencils and pens are in order.  If you need to get something out of your jacket or knapsack once the exam has started, raise your hand and wait til a proctor comes to you to oversee the matter.
+\\item The final exam will be closed book, closed notes, with no electronic devices allowed, with particular reference to any electronic devices that are capable of communication and/or storing information.
 \\end{enumerate}
 \\newpage
 \\begin{enumerate}
